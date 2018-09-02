@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-8013291-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-8013291-2');
+</script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lisa Blunt</title>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+        <style>
+            body {
+                background-color: #f3f3ee;
+                color: gray;
+                font-family: 'Montserrat';
+                font-size:20px;
+            }
+            h1 {
+                color: gray;
+                text-shadow: 2px 1px black;
+                font-family: 'Montserrat';
+                font-size:40px;
+               }
+            
+            .center-justified {
+                text-align: justify;
+                margin: 0 auto;
+                width: 22em;
+               }
+            
+            .responsive {
+                width: 25%;
+                height: 25%;
+               }
+        </style>       
+    </head>
+    <body>
+        <div class="container">
+            <center>
+                <h1 style="font-size:5vw;">Lisa Blunt</h1>
+                <h3 style="font-size:3vw;">About</h3>
+                <br>
+                <img src="http://i65.tinypic.com/2ns2tdx.png" height="260" width="250" class="responsive"> 
+                <br>
+            </center>
+            <div class="center-justified">
+                <div style='width: 450px;'>
+                        <p style="font-size:2vw;">I’m currently on a contract with the <a href="http://www.federalreserve.gov">Federal Reserve Board</a> as a 508-HTML Consultant. I build <a href="https://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973">Section 508</a>-compliant webpages for the <a href="https://www.federalreserve.gov/econres/notes/feds-notes/default.htm">FEDS</a> and <a href="https://www.federalreserve.gov/econres/notes/ifdp-notes/default.htm">IFDP</a> note portions of the agency’s main website.</p> 
+                        <p style="font-size:2vw">Before that, I worked as a Web Content Manager with the <a href="http://www.fdic.gov">Federal Deposit Insurance Corporation</a> (FDIC). There, I maintained webpages on the agency’s external and intranet websites.</p>
+                        <p style="font-size:2vw">And before that, I worked as a Federal Technology Consultant at <a href="https://www2.deloitte.com/us/en/services/consulting.html?icid=bottom_consulting">Deloitte Consulting</a> for clients including the Internal Revenue Service (IRS), the Food and Drug Administration (FDA), and the Commodities Futures Trading Commission (CFTC).</p> 
+                        <p style="font-size:2vw">If you're interested in more specific timelines, add me on <a href="http://www.linkedin.com/in/lisablunt">LinkedIn</a>.</p>
+                </div>
+                </div>
+                <br>
+                <center>
+                <h3 style="font-size:3vw;">Clients & Projects:</h3>
+                    <a href="https://www.federalreserve.gov"><img src="http://funkyimg.com/i/2KB5N.png" height="250" width="250" class="responsive"></a>
+                    <br>            
+                    <br>
+                    <a href="http://www.fdic.gov"><img src="http://i68.tinypic.com/26096dx.png" class="responsive"></a>
+                    <br>
+                    <br>
+                    <a href="https://www2.deloitte.com/us/en/services/consulting.html?icid=bottom_consulting"><img src="http://i67.tinypic.com/3539hu9.png" height="70" width="300" class="responsive"></a>
+                    <br>
+                    <a href="http://www.virtual-ea.com"><img src="http://i63.tinypic.com/264lw5i.png" height="150" width="300" class="responsive"></a>
+                    <br>
+                    <a href="http://www.nsbe.org"><img src="http://i63.tinypic.com/30a5s1g.png" height="150" width="300" class="responsive"></a>
+                    <br>
+                    <br>
+                    <a href="http://www.brown.edu/Research/Catskills_Institute/index.shtml"><img src="http://i66.tinypic.com/302rk3n.jpg" height="150" width="300" class="responsive"></a>
+            </center>
+                <br>
+            <center>
+                <h3 style="font-size:3vw;">Connect With Me:</h3>
+                    <a href="mailto:lisablunt1@gmail.com"><img src="http://i67.tinypic.com/11jafy8.png" height="50" width="50"></a>
+                    <a href="http://www.github.com/lisablunt/"><img src="http://i68.tinypic.com/oieuqe.png" height="50" width="50"></a>
+                    <a href="http://www.twitter.com/lisa_blunt"><img src="http://i64.tinypic.com/30lm4hg.png" height="50" width="50"></a>
+                    <a href="http://www.last.fm/user/BeLisaBee"><img src="http://i64.tinypic.com/juv5hz.png" height="50" width="50"></a>
+            </center>
+                    <br>
+                    <br>
+            <hr width="50%">
+             <center>
+                    <p style="font-size:1vw;"><small>This page was created, designed, and maintained by Lisa Blunt using HTML5 and CSS3.</small></p>
+                    <p style="font-size:1vw;"><small>© 2018</small></p>
+            </center>
+        </div>
+</body>
+</html>
