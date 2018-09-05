@@ -45,6 +45,26 @@
                 width: 25%;
                 height: 25%;
                }
+            
+       /* Tooltip text */
+            .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: dimgray;
+            color: #f3f3ee;
+            text-align: left;
+            padding: 5px 5px;
+            border-radius: 6px;
+ 
+        /* Position the tooltip text - see examples below! */
+            position: absolute;
+            z-index: 1;
+               }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+            .tooltip:hover .tooltiptext {
+            visibility: visible;
+               }
         </style>       
     </head>
     <body>
@@ -68,17 +88,32 @@
                 <br>
                 <center>
                 <h3 style="font-size:3vw;">Current & Former Clients</h3>
-                    <a href="https://www.federalreserve.gov"><img src="http://funkyimg.com/i/2KB5N.png" height="250" width="250" class="responsive"></a>
-                    <br>            
+                    <div class="tooltip">
+					<a href="https://www.federalreserve.gov"><img src="http://funkyimg.com/i/2KB5N.png" height="250" width="250" class="responsive"></a>       
+  					<span class="tooltiptext">I currently work here as a 508-HTML Consultant</span>
+					</div>
+					<br>            
                     <br>
+					<div class="tooltip">
                     <a href="http://www.fdic.gov"><img src="http://i68.tinypic.com/26096dx.png" class="responsive"></a>
+					<span class="tooltiptext">I used to work here managing the content on FDIC's external & intranet websites</span>
+					</div>
                     <br>
                     <br>
+					<div class="tooltip">
                     <a href="https://www2.deloitte.com/us/en/services/consulting.html?icid=bottom_consulting"><img src="http://i67.tinypic.com/3539hu9.png" height="70" width="300" class="responsive"></a>
+					<span class="tooltiptext">Here, I consulted with several federal clients under Deloitte's Systems Integration service line</span>
+					</div>
                     <br>
+					<div class="tooltip">
                     <a href="http://www.virtual-ea.com"><img src="http://i63.tinypic.com/264lw5i.png" height="150" width="300" class="responsive"></a>
+					<span class="tooltiptext">I used to work here on this startup's main, mobile, and intranet websites</span>
+					</div>
                     <br>
+					<div class="tooltip">
                     <a href="http://www.nsbe.org"><img src="http://i63.tinypic.com/30a5s1g.png" height="150" width="300" class="responsive"></a>
+					<span class="tooltiptext">I began my IT career here, improving the functionality and navigation of NSBE's main website</span>
+					</div>
                     <br>
                 </center>
                 <br>
