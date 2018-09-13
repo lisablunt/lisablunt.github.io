@@ -1,4 +1,4 @@
 [lisablunt.github.io](http://lisablunt.github.io)
 ==============
 
-My personal website, built using HTML5 and CSS3.
+My portfolio site. Built using HTML5, CSS3 and w3.css.
