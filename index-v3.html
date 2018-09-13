@@ -27,7 +27,18 @@ body,h1,h2,h3,h4,h5,h6, .w3-bar,h1,button {font-family: "Montserrat", sans-serif
 </style>
 <body>
 
-<!-- Navbar -->
+<!-- Top Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-right-align w3-large">
+    <a class="w3-bar-item w3-hide-medium w3-hide-large w3-padding-large w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-large">
+  </div>
+</div>
+	
+<!-- Bottom Navbar -->
 <div class="w3-bottom">
   <div class="w3-bar w3-black w3-card w3-right-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-indigo w3-large w3-indigo" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
