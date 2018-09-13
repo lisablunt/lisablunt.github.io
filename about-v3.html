@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<title>Lisa Blunt | Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6, .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-university,.fa-usd, .fa-briefcase {font-size:200px}
+            h1, h3 {
+                color: gray;
+                text-shadow: 2px 1px black;
+                font-size:40px;
+               }
+               
+            body {
+                color: gray;
+                font-size:20px;
+                           
+            .responsive {
+                width: 25%;
+                height: 25%;
+               }
+            
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-bottom">
+  <div class="w3-bar w3-black w3-card w3-right-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-indigo w3-large w3-indigo" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/index-v3.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-indigo">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-indigo">About</a>
+    <a href="/clients.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-indigo">Clients</a>
+    <a href="/resume.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-indigo">Resume</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-indigo w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="/about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="/clients/index.html" class="w3-bar-item w3-button w3-padding-large">Clients</a>
+    <a href="/resume/index.html" class="w3-bar-item w3-button w3-padding-large">Resume</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-sand w3-center" style="padding:64px 16px">
+            <h1 class="w3-margin w3-jumbo"><b>About</b></h1>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-sand w3-padding-32 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h3 class="w3-padding-50">I come from a non-traditional technology background,</h3>
+
+      <p class="w3-text-grey">having earned a degree in Literatures and Cultures in English from Brown University in 2009. I discovered my passion for technology by taking an English course in college called “Electronic Media.” My capstone project for that class was to build a website from scratch using self-taught HTML, CSS, and Adobe Dreamweaver to tell a creative non-fiction story.</p>
+    </div>
+
+                 <div class="w3-third w3-center">
+                 <i class="fa fa-graduation-cap w3-padding-64 w3-text-indigo" style="text-shadow: 2px 2px 4px #000000;"></i>
+	  </div>
+	  </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-sand w3-padding-32 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-lightbulb-o w3-padding-64 w3-text-indigo w3-margin-right" style="text-shadow: 2px 2px 4px #000000;"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h3 class="w3-padding-50">Completing this project showed me there’s not a huge leap from reading and writing words to reading and writing code.</h3>
+
+      <p class="w3-text-grey">The following semester, I accepted a work-study position with Brown's Scholarly Technology Group building a website to house 30 years of a sociology professor's research on the Catskills Mountains.</p><br>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid -->
+<div class="w3-row-padding w3-sand w3-padding-32 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h3 class="w3-padding-50">These experiences with coding ignited my pursuit of technology as a career.</h3> 
+	    <p class="w3-text-grey">In 2011, I accepted a web developer position with the National Society of Black Engineers. Since then, I've worked for small, medium, and large companies primarily as a web developer and consultant.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-desktop w3-padding-64 w3-text-indigo w3-margin-right" style="text-shadow: 2px 2px 4px #000000;"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-sand w3-padding-64 w3-center">  
+			<a href="mailto:lisaxblunt@gmail.com"><i class="fa fa-envelope w3-hover-opacity w3-text-indigo"></i></a>
+			<a href="http://www.github.com/lisablunt/"><i class="fa fa-github w3-hover-opacity w3-text-indigo"></i></a>
+    			<a href="http://www.twitter.com/lisa_blunt"><i class="fa fa-twitter w3-hover-opacity w3-text-indigo"></i></a>
+   	 		<a href="http://www.linkedin.com/in/lisablunt"><i class="fa fa-linkedin w3-hover-opacity w3-text-indigo"></i></a>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
