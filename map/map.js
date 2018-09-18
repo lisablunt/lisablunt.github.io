@@ -130,6 +130,57 @@ var markers = {
       }
     }
   ]
+},
+    {
+      'type': 'Feature',
+      'properties': {
+        'title': 'London, UK',
+        'marker-symbol': 'pitch',
+        'description': 'Winter 2015<br>I travelled here.'
+      },
+      'geometry': {
+        'type': 'airport',
+        'coordinates': [
+          -0.1278,
+          51.5074
+]
+      }
+    }
+  ]
+},
+    {
+      'type': 'Feature',
+      'properties': {
+        'title': 'Paris, FR',
+        'marker-symbol': 'airport',
+        'description': 'Winter 2015<br>I travelled here.'
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          -2.3522,
+          48.8566
+]
+      }
+    }
+  ]
+},
+    {
+      'type': 'Feature',
+      'properties': {
+        'title': 'Amsterdam, Netherlands',
+        'marker-symbol': 'airport',
+        'description': 'Winter 2015<br>I travelled here.'
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          -4.9036,
+          52.3680
+]
+      }
+    }
+  ]
 };
 
 var placesLayer = L.mapbox.featureLayer().setGeoJSON(markers).addTo(map);
