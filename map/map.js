@@ -88,7 +88,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'New York. NY',
-        'marker-symbol': 'pitch',
+        'marker-symbol': 'building',
         'description': 'Summer 2007<br>Internship with the books division of Sports Illustrated.'
       },
       'geometry': {
@@ -103,7 +103,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'New Haven, CT',
-        'marker-symbol': 'pitch',
+        'marker-symbol': 'building',
         'description': 'Summer 2008<br>Internship with Yale University Press.'
       },
       'geometry': {
@@ -118,7 +118,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'Sacramento, CA',
-        'marker-symbol': 'pitch',
+        'marker-symbol': 'rocket',
         'description': 'Summer 2015<br>I attended a Twitter hackathon here.'
       },
       'geometry': {
@@ -126,52 +126,7 @@ var markers = {
         'coordinates': [
           -121.4944,
           38.5816
-        ]
-      }
-    },
-      {
-      'type': 'Feature',
-      'properties': {
-        'title': 'London, UK',
-        'marker-symbol': 'pitch',
-        'description': 'Winter 2015<br>I travelled here.'
-      },
-      'geometry': {
-        'type': 'airport',
-        'coordinates': [
-          -0.1278,
-          51.5074
-        ]
-      }
-    },
-    {
-      'type': 'Feature',
-      'properties': {
-        'title': 'Paris, FR',
-        'marker-symbol': 'airport',
-        'description': 'Winter 2015<br>I travelled here.'
-      },
-      'geometry': {
-        'type': 'Point',
-        'coordinates': [
-          -2.3522,
-          48.8566
-        ]
-      }
-    },
-    {
-      'type': 'Feature',
-      'properties': {
-        'title': 'Amsterdam, Netherlands',
-        'marker-symbol': 'airport',
-        'description': 'Winter 2015<br>I travelled here.'
-      },
-      'geometry': {
-        'type': 'Point',
-        'coordinates': [
-          -4.9036,
-          52.3680
-        ]
+]
       }
     }
   ]
