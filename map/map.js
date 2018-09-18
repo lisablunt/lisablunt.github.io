@@ -155,7 +155,7 @@ var markers = {
         'type': 'Point',
         'coordinates': [
           2.3522,
-          48.8566
+          -48.8566
         ]
       }
     },
@@ -170,7 +170,7 @@ var markers = {
         'type': 'Point',
         'coordinates': [
           4.8994,
-          52.3791
+          -52.3791
 ]
       }
     }
