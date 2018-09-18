@@ -88,7 +88,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'New York. NY',
-        'marker-symbol': 'building',
+        'marker-symbol': 'pitch',
         'description': 'Summer 2007<br>Internship with the books division of Sports Illustrated.'
       },
       'geometry': {
@@ -103,7 +103,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'New Haven, CT',
-        'marker-symbol': 'building',
+        'marker-symbol': 'pitch',
         'description': 'Summer 2008<br>Internship with Yale University Press.'
       },
       'geometry': {
@@ -118,7 +118,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'Sacramento, CA',
-        'marker-symbol': 'rocket',
+        'marker-symbol': 'pitch',
         'description': 'Summer 2015<br>I attended a Twitter hackathon here.'
       },
       'geometry': {
