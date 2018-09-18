@@ -128,7 +128,7 @@ var markers = {
           121.4944
         ]
       }
-};
+}
 
 var placesLayer = L.mapbox.featureLayer().setGeoJSON(markers).addTo(map);
 
