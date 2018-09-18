@@ -119,7 +119,7 @@ var markers = {
       'properties': {
         'title': 'Sacramento, CA',
         'marker-symbol': 'pitch',
-        'description': 'Summer 2015<br>I lived here for six weeks.' 
+        'description': 'Summer 2015<br>' 
       },
       'geometry': {
         'type': 'Point',
@@ -154,7 +154,7 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          2.3522,
+          -2.3522,
           48.8566
         ]
       }
