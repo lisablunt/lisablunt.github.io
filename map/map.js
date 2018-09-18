@@ -58,7 +58,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'Washington, DC',
-        'marker-symbol': 'heliport',
+        'marker-symbol': 'star',
         'description': '1980s - Present<br>I was born and raised here.'
       },
       'geometry': {
@@ -79,8 +79,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -41.8240,
-          71.4128
+          -71.4128,
+          41.8240 
         ]
       }
     },
@@ -94,8 +94,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -40.7128,
-          74.0060
+          -74.0060,
+          40.7128
         ]
       }
     },
@@ -109,8 +109,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -41.3083,
-          72.9279
+          -72.9279,
+          41.3083
         ]
       }
     },
@@ -124,8 +124,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -38.5816,
-          121.4944
+          -121.4944,
+          38.5816
 ]
       }
     }
