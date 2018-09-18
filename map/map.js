@@ -88,7 +88,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'New York. NY',
-        'marker-symbol': 'building',
+        'marker-symbol': 'library',
         'description': 'Summer 2007<br>Internship with the books division of Sports Illustrated.'
       },
       'geometry': {
@@ -103,7 +103,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'New Haven, CT',
-        'marker-symbol': 'building',
+        'marker-symbol': 'library',
         'description': 'Summer 2008<br>Internship with Yale University Press.'
       },
       'geometry': {
@@ -117,7 +117,52 @@ var markers = {
     {
       'type': 'Feature',
       'properties': {
-        'title': 'Sacramento, CA',
+        'title': 'London, UK',
+        'marker-symbol': 'suitcase',
+        'description': 'Winter 2015<br>I travelled here.'
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          -0.1278,
+          51.5074
+        ]
+      }
+    },
+    {
+      'type': 'Feature',
+      'properties': {
+        'title': 'Paris, FR',
+        'marker-symbol': 'suitcase',
+        'description': 'Winter 2015<br>I travelled here.'
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          -2.3522,
+          48.8566
+        ]
+      }
+    },
+    {
+      'type': 'Feature',
+      'properties': {
+        'title': 'Amsterdam, Netherlands',
+        'marker-symbol': 'suitcase',
+        'description': 'Winter 2015<br>I travelled here.'
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          -4.9036,
+          52.3680
+        ]
+      }
+    },
+    {
+      'type': 'Feature',
+      'properties': {
+        'title': 'LAST - Sacramento, CA',
         'marker-symbol': 'rocket',
         'description': 'Summer 2015<br>I attended a Twitter hackathon here.'
       },
