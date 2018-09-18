@@ -132,6 +132,21 @@ var markers = {
     {
       'type': 'Feature',
       'properties': {
+        'title': 'London, UK',
+        'marker-symbol': 'suitcase',
+        'description': 'Winter 2015<br>I travelled here.'
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          -0.1278,
+          51.5074
+        ]
+      }
+    },
+    {
+      'type': 'Feature',
+      'properties': {
         'title': 'Paris, FR',
         'marker-symbol': 'suitcase',
         'description': 'Winter 2015<br>I travelled here.'
@@ -139,8 +154,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -2.3522,
-          48.8566
+          -2.2945,
+          48.8584
         ]
       }
     },
@@ -154,23 +169,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -4.9036,
-          52.3680
-        ]
-      }
-    },
-    {
-      'type': 'Feature',
-      'properties': {
-        'title': 'London, UK',
-        'marker-symbol': 'suitcase',
-        'description': 'Winter 2015<br>I travelled here.'
-      },
-      'geometry': {
-        'type': 'Point',
-        'coordinates': [
-          -0.1278,
-          51.5074 
+          -4.7683,
+          52.3105 
 ]
       }
     }
