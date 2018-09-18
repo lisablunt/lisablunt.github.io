@@ -118,8 +118,8 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'Sacramento, CA',
-        'marker-symbol': 'rocket',
-        'description': 'Summer 2015<br>I attended a hackathon at Twitter HQ (SF) while living here.' 
+        'marker-symbol': 'city',
+        'description': 'Summer 2015<br>I lived here for six weeks and attended a hackathon at Twitter HQ (SF).' 
       },
       'geometry': {
         'type': 'Point',
@@ -154,8 +154,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -48.8566,
-          2.3522
+          -2.3522,
+          48.8566
         ]
       }
     },
@@ -169,8 +169,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -52.3680,
-          4.9036 
+          -4.9036,
+          52.3680 
 ]
       }
     }
