@@ -74,7 +74,7 @@ var markers = {
       'properties': {
         'title': 'Providence, RI',
         'marker-symbol': 'college',
-        'description': '2003 - 2008<br>I went to university here.'
+        'description': '2003 - 2008<br>I went to college here.'
       },
       'geometry': {
         'type': 'Point',
@@ -119,7 +119,7 @@ var markers = {
       'properties': {
         'title': 'Sacramento, CA',
         'marker-symbol': 'pitch',
-        'description': 'Summer 2015<br>' 
+        'description': 'Summer 2015<br>Attended my first hackathon at Twitter HQ' 
       },
       'geometry': {
         'type': 'Point',
@@ -154,8 +154,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -2.349014,
-          48.864716
+          -2.3522,
+          48.8566
         ]
       }
     },
