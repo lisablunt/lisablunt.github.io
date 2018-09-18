@@ -118,8 +118,8 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'Sacramento, CA',
-        'marker-symbol': 'city',
-        'description': 'Summer 2015<br>I lived here for six weeks and attended a hackathon at Twitter HQ (SF).' 
+        'marker-symbol': 'pitch',
+        'description': 'Summer 2015<br>I lived here for six weeks.' 
       },
       'geometry': {
         'type': 'Point',
@@ -169,8 +169,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -4.9036,
-          52.3680 
+          -52.3680,
+          4.9036 
 ]
       }
     }
