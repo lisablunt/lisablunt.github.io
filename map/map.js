@@ -171,7 +171,7 @@ var markers = {
         'coordinates': [
           -4.9036,
           52.3680
-]
+        ]
       }
     }
   ]
