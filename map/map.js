@@ -126,11 +126,9 @@ var markers = {
         'coordinates': [
           -121.4944,
           38.5816
-]
+        ]
       }
-    }
-  ]
-},
+    },
       {
       'type': 'Feature',
       'properties': {
@@ -143,11 +141,9 @@ var markers = {
         'coordinates': [
           -0.1278,
           51.5074
-]
+        ]
       }
-    }
-  ]
-},
+    },
     {
       'type': 'Feature',
       'properties': {
@@ -160,11 +156,9 @@ var markers = {
         'coordinates': [
           -2.3522,
           48.8566
-]
+        ]
       }
-    }
-  ]
-},
+    },
     {
       'type': 'Feature',
       'properties': {
