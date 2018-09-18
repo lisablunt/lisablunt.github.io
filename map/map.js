@@ -131,7 +131,7 @@ var markers = {
     }
   ]
 },
-    {
+      {
       'type': 'Feature',
       'properties': {
         'title': 'London, UK',
