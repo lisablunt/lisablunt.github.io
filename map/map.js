@@ -162,15 +162,15 @@ var markers = {
     {
       'type': 'Feature',
       'properties': {
-        'title': 'Amsterdam, Netherlands',
+        'title': 'Bermuda',
         'marker-symbol': 'suitcase',
         'description': 'Winter 2015<br>I travelled here.'
       },
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          4.7683,
-          52.3105
+          -64.790337,
+          32.299507
 ]
       }
     }
