@@ -169,7 +169,7 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -6.000,
+          -3.000,
           52.3680 
 ]
       }
