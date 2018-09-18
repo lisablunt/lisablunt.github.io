@@ -162,7 +162,7 @@ var markers = {
     {
       'type': 'Feature',
       'properties': {
-        'title': 'Bermuda',
+        'title': 'Hamilton, Bermuda',
         'marker-symbol': 'suitcase',
         'description': 'Late Summer 2014<br>I travelled here.'
       },
