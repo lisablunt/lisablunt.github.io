@@ -164,7 +164,7 @@ var markers = {
       'properties': {
         'title': 'Bermuda',
         'marker-symbol': 'suitcase',
-        'description': 'Winter 2015<br>I travelled here.'
+        'description': 'Late Summer 2014<br>I travelled here.'
       },
       'geometry': {
         'type': 'Point',
