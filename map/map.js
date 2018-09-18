@@ -73,7 +73,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'Providence, RI',
-        'marker-symbol': 'heliport',
+        'marker-symbol': 'college',
         'description': '2003 - 2008<br>I went to university here.'
       },
       'geometry': {
@@ -88,7 +88,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'New York. NY',
-        'marker-symbol': 'park',
+        'marker-symbol': 'building',
         'description': 'Summer 2007<br>Internship with the books division of Sports Illustrated.'
       },
       'geometry': {
@@ -103,7 +103,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'New Haven, CT',
-        'marker-symbol': 'bicycle',
+        'marker-symbol': 'building',
         'description': 'Summer 2008<br>Internship with Yale University Press.'
       },
       'geometry': {
@@ -118,7 +118,7 @@ var markers = {
       'type': 'Feature',
       'properties': {
         'title': 'Sacramento, CA',
-        'marker-symbol': 'school',
+        'marker-symbol': 'rocket',
         'description': 'Summer 2015<br>I attended a Twitter hackathon here.'
       },
       'geometry': {
