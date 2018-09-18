@@ -87,7 +87,7 @@ var markers = {
     {
       'type': 'Feature',
       'properties': {
-        'title': 'New York. NY',
+        'title': 'New York, NY',
         'marker-symbol': 'library',
         'description': 'Summer 2007<br>Internship with the books division of Sports Illustrated.'
       },
@@ -119,7 +119,7 @@ var markers = {
       'properties': {
         'title': 'Sacramento, CA',
         'marker-symbol': 'pitch',
-        'description': 'Summer 2015<br>Attended my first hackathon at Twitter HQ in SF' 
+        'description': 'Summer 2015<br>Attended my first hackathon at Twitter HQ (SF)' 
       },
       'geometry': {
         'type': 'Point',
@@ -169,7 +169,7 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -4.7683,
+          4.7683,
           52.3105
 ]
       }
