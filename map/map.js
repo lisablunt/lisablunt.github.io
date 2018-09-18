@@ -117,15 +117,15 @@ var markers = {
     {
       'type': 'Feature',
       'properties': {
-        'title': 'London, UK',
-        'marker-symbol': 'suitcase',
-        'description': 'Winter 2015<br>I travelled here.'
+        'title': 'Sacramento, CA',
+        'marker-symbol': 'pitch',
+        'description': 'Summer 2015<br>I attended a hackathon at Twitter HQ.' 
       },
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -0.1278,
-          51.5074
+          -121.4944,
+          38.5816
         ]
       }
     },
@@ -162,15 +162,15 @@ var markers = {
     {
       'type': 'Feature',
       'properties': {
-        'title': 'LAST - Sacramento, CA',
-        'marker-symbol': 'rocket',
-        'description': 'Summer 2015<br>I attended a Twitter hackathon here.'
+        'title': 'London, UK',
+        'marker-symbol': 'suitcase',
+        'description': 'Winter 2015<br>I travelled here.'
       },
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -121.4944,
-          38.5816
+          -0.1278,
+          51.5074 
 ]
       }
     }
