@@ -154,8 +154,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -2.3522,
-          48.8566
+          -48.8566,
+          2.3522
         ]
       }
     },
@@ -169,8 +169,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          -4.9036,
-          52.3680 
+          -52.3680,
+          4.9036 
 ]
       }
     }
