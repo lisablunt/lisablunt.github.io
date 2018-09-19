@@ -10,6 +10,6 @@
 
 ## [Version 3.0](http://lisablunt.github.io/archive/index-v3) 
 
-* Main avatar only. Icons & company logos archived
+* Main avatar only. Icons & company logos archived for use in site versions 1.0 and 2.0
 
 * Projects page image size: 600 x 400 px
