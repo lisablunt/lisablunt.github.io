@@ -134,7 +134,7 @@ var markers = {
       'properties': {
         'title': 'London, UK',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>Saw Big Ben, Birmingham Palace, and Stonehenge.'
+        'description': '2015<br>Saw Big Ben, Buckingham Palace, and Stonehenge.'
       },
       'geometry': {
         'type': 'Point',
@@ -149,7 +149,7 @@ var markers = {
       'properties': {
         'title': 'Paris, FR',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>Saw the Eiffel Tower, visited the Louvre.'
+        'description': '2015<br>Saw the Eiffel Tower, visited the Louvre, and ate macarons at Ladurée.'
       },
       'geometry': {
         'type': 'Point',
