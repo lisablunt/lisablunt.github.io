@@ -134,7 +134,7 @@ var markers = {
       'properties': {
         'title': 'London, UK',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>I travelled here.'
+        'description': '2015<br>Saw Big Ben, Birmingham Palace, and Stonehenge.'
       },
       'geometry': {
         'type': 'Point',
@@ -149,7 +149,7 @@ var markers = {
       'properties': {
         'title': 'Paris, FR',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>I travelled here.'
+        'description': '2015<br>Saw the Eiffel Tower, visited the Louvre.'
       },
       'geometry': {
         'type': 'Point',
@@ -164,7 +164,7 @@ var markers = {
       'properties': {
         'title': 'Hamilton, Bermuda',
         'marker-symbol': 'suitcase',
-        'description': '2014<br>I travelled here.'
+        'description': '2014<br>Pastel houses, pink sand beaches... take me back!'
       },
       'geometry': {
         'type': 'Point',
