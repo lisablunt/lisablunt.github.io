@@ -59,7 +59,7 @@ var markers = {
       'properties': {
         'title': 'Washington, DC',
         'marker-symbol': 'star',
-        'description': '1980s - Present<br>I was born and raised here.'
+        'description': '1980s - Present<br>'
       },
       'geometry': {
         'type': 'Point',
