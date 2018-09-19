@@ -5,3 +5,13 @@ Places I've Lived map. Built using [Mapbox.js](https://www.mapbox.com/mapbox.js/
 
 I built this interactive map because I couldn't find an infograph template I liked.
 
+What I worked on:
+
+* Customized marker symbols in Mapbox.js
+
+* Updated city coordinates
+
+* Added caption text and dates
+
+* Linked HTML, CSS, and JavaScript files to display map
+
