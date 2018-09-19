@@ -74,7 +74,7 @@ var markers = {
       'properties': {
         'title': 'Providence, RI',
         'marker-symbol': 'college',
-        'description': '2003 - 2008<br>Attended Brown University.'
+        'description': '2003 - December 2008<br>Attended Brown University.'
       },
       'geometry': {
         'type': 'Point',
@@ -134,7 +134,7 @@ var markers = {
       'properties': {
         'title': 'London, UK',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>Saw Big Ben, Buckingham Palace, and Stonehenge.'
+        'description': '2015<br>Saw Big Ben, Buckingham Palace, and Stonehenge. Cheerio!'
       },
       'geometry': {
         'type': 'Point',
@@ -149,7 +149,7 @@ var markers = {
       'properties': {
         'title': 'Paris, FR',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>Saw the Eiffel Tower, visited the Louvre, and ate macarons at Ladurée.'
+        'description': '2015<br>Ice skated at the Eiffel Tower, visited the Louvre, and ate macarons at Ladurée.'
       },
       'geometry': {
         'type': 'Point',
