@@ -12,4 +12,4 @@
 
 * Main avatar, down arrows, Projects page. Icons & company logos archived for use in site versions 1.0 and 2.0
 
-* Projects page image size: 600 x 400 px
+* Projects page image size: **600 x 400 px**
