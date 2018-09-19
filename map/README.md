@@ -1,5 +1,7 @@
-Places I've Lived Map
+[lisablunt.github.io/map](http://lisablunt.github.io/map)
+==============
 
-An exercise I took up when looking for an infographic to display the places I've lived and travelled to. 
+Places I've Lived map. Built using [Mapbox.js](https://www.mapbox.com/mapbox.js/api/v3.1.1/). 
 
-http://lisablunt.github.io/map/
+I built this interactive map because I couldn't find an infographic template I liked.
+
