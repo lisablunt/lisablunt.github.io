@@ -119,7 +119,7 @@ var markers = {
       'properties': {
         'title': 'Sacramento, CA',
         'marker-symbol': 'pitch',
-        'description': 'Summer 2015<br>Attended my first hackathon at Twitter HQ (SF)' 
+        'description': '2015<br>Attended my first hackathon at Twitter HQ (SF)' 
       },
       'geometry': {
         'type': 'Point',
@@ -134,7 +134,7 @@ var markers = {
       'properties': {
         'title': 'London, UK',
         'marker-symbol': 'suitcase',
-        'description': 'Winter 2015<br>I travelled here.'
+        'description': '2015<br>I travelled here.'
       },
       'geometry': {
         'type': 'Point',
@@ -149,7 +149,7 @@ var markers = {
       'properties': {
         'title': 'Paris, FR',
         'marker-symbol': 'suitcase',
-        'description': 'Winter 2015<br>I travelled here.'
+        'description': '2015<br>I travelled here.'
       },
       'geometry': {
         'type': 'Point',
@@ -164,7 +164,7 @@ var markers = {
       'properties': {
         'title': 'Hamilton, Bermuda',
         'marker-symbol': 'suitcase',
-        'description': 'Late Summer 2014<br>I travelled here.'
+        'description': '2014<br>I travelled here.'
       },
       'geometry': {
         'type': 'Point',
