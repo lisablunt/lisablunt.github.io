@@ -134,7 +134,7 @@ var markers = {
       'properties': {
         'title': 'London, UK',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>Saw Big Ben, waved hello to the Queen at Buckingham Palace, and visited Stonehenge. Cheerio!'
+        'description': '2015<br>Waved hello to the Queen at Buckingham Palace, saw Big Ben, and visited nearby Stonehenge. Cheerio!'
       },
       'geometry': {
         'type': 'Point',
