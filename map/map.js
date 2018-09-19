@@ -59,7 +59,7 @@ var markers = {
       'properties': {
         'title': 'Washington, DC',
         'marker-symbol': 'star',
-        'description': '1980s - Present<br>'
+        'description': '1980s - Present<br>My birthplace & current city'
       },
       'geometry': {
         'type': 'Point',
@@ -74,7 +74,7 @@ var markers = {
       'properties': {
         'title': 'Providence, RI',
         'marker-symbol': 'college',
-        'description': '2003 - 2008<br>I went to college here.'
+        'description': '2003 - 2008<br>Brown University'
       },
       'geometry': {
         'type': 'Point',
@@ -89,7 +89,7 @@ var markers = {
       'properties': {
         'title': 'New York, NY',
         'marker-symbol': 'library',
-        'description': 'Summer 2007<br>Internship with the books division of Sports Illustrated.'
+        'description': 'Summer 2007<br>Internship with the books division of Sports Illustrated'
       },
       'geometry': {
         'type': 'Point',
@@ -104,7 +104,7 @@ var markers = {
       'properties': {
         'title': 'New Haven, CT',
         'marker-symbol': 'library',
-        'description': 'Summer 2008<br>Internship with Yale University Press.'
+        'description': 'Summer 2008<br>Internship with Yale University Press'
       },
       'geometry': {
         'type': 'Point',
@@ -134,7 +134,7 @@ var markers = {
       'properties': {
         'title': 'London, UK',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>I travelled here.'
+        'description': '2015<br>I travelled here'
       },
       'geometry': {
         'type': 'Point',
@@ -149,7 +149,7 @@ var markers = {
       'properties': {
         'title': 'Paris, FR',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>I travelled here.'
+        'description': '2015<br>I travelled here'
       },
       'geometry': {
         'type': 'Point',
@@ -164,7 +164,7 @@ var markers = {
       'properties': {
         'title': 'Hamilton, Bermuda',
         'marker-symbol': 'suitcase',
-        'description': '2014<br>I travelled here.'
+        'description': '2014<br>I travelled here'
       },
       'geometry': {
         'type': 'Point',
