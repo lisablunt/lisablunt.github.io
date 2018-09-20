@@ -11,9 +11,9 @@ What I worked on:
 
 * Updated city coordinates
 
-* Added caption and date popups with simplestyle
+* Added caption and date popups with [simplestyle](http://https://www.mapbox.com/help/define-simplestyle/)
 
 * Linked HTML, CSS, and JavaScript files to display map
 
-* Set zoom level 
+* Set zoom level with [Leaflet](http://https://leafletjs.com/index.html)
 
