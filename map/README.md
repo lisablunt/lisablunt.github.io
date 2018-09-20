@@ -3,7 +3,7 @@
 
 Places I've Lived map. Built using [Mapbox.js](https://www.mapbox.com/mapbox.js/api/v3.1.1/). 
 
-I built this interactive map because I couldn't find an infograph template I liked.
+I built this interactive map because I couldn't find an infographic template I liked.
 
 What I worked on:
 
