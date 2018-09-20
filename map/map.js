@@ -74,7 +74,7 @@ var markers = {
       'properties': {
         'title': 'Providence, RI',
         'marker-symbol': 'college',
-        'description': '2003 - 2008<br>Attended Brown University.'
+        'description': '2009<br>Graduated from Brown University.'
       },
       'geometry': {
         'type': 'Point',
