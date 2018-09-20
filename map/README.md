@@ -7,11 +7,11 @@ I built this interactive map because I couldn't find an infographic template I l
 
 What I worked on:
 
-* Customized marker symbols in Mapbox.js
+* Styled marker symbols in Mapbox.js
 
 * Updated city coordinates
 
-* Added caption text and dates
+* Added caption and date popups with simplestyle
 
 * Linked HTML, CSS, and JavaScript files to display map
 
