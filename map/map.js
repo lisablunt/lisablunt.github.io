@@ -134,7 +134,7 @@ var markers = {
       'properties': {
         'title': 'London, UK',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>Waved hello to the Queen, saw Big Ben, and visited nearby Stonehenge.'
+        'description': '2015<br>Waved hello to the Queen, saw Big Ben, and visited nearby Stonehenge. Cheerio!'
       },
       'geometry': {
         'type': 'Point',
@@ -164,7 +164,7 @@ var markers = {
       'properties': {
         'title': 'Hamilton, Bermuda',
         'marker-symbol': 'suitcase',
-        'description': '2014<br>Pastel houses, pink sand beaches... take me back!'
+        'description': '2014<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
       },
       'geometry': {
         'type': 'Point',
