@@ -7,9 +7,9 @@ I built this interactive map because I couldn't find an infographic template I l
 
 What I worked on:
 
-* Styled marker symbols with [simplestyle](http://http://www.mapbox.com/help/define-simplestyle/)
+* Styled marker symbols with [simplestyle](http://www.mapbox.com/help/define-simplestyle/)
 
-* Set zoom level and added caption and date popups with [Leaflet](http://https://leafletjs.com/index.html)
+* Set zoom level and added caption and date popups with [Leaflet](http://www.leafletjs.com/index.html)
 
 * Updated city coordinates
 
