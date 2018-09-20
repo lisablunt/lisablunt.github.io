@@ -15,3 +15,5 @@ What I worked on:
 
 * Linked HTML, CSS, and JavaScript files to display map
 
+* Set zoom level 
+
