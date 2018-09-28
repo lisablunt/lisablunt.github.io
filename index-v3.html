@@ -46,42 +46,29 @@ body,h1,h2,h3,h4,h5,h6, .w3-bar,h1,button {font-family: "Montserrat", sans-serif
                 height: 25%;
                }
 	
-	<!-- Arrow Bounce -->
-i { color: #3f51b5; text-decoration: none; }
-
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
+	<!-- Arrow Fade -->
+	   .fade {
+   		opacity: 1;
+   		transition: opacity .25s ease-in-out;
+   		-moz-transition: opacity .25s ease-in-out;
+   		-webkit-transition: opacity .25s ease-in-out;
+   		}
+   	   .fade:hover {
+      		opacity: 0.5;
+      			}
 	
 /* unvisited link */
 a:link {
     color: mediumblue;
 }
-
 /* visited link */
 a:visited {
     color: gray;
 }
-
 /* mouse over link */
 a:hover {
     color: magenta;
 }
-
 /* selected link */
 a:active {
     color: white;
@@ -116,9 +103,8 @@ a:active {
   <h3>Hi, I'm Lisa. I'm a software engineer in DC.</h3>
         <img src="/img/me.png" height="300" width="300" alt="Avatar" style="width:100%;max-width:300px">
 	<br>
-	<div class="arrow bounce">
-		<center><i class="fa fa-angle-double-down fa-4x"></i></center>
-</div>
+	<p><a href="#Top"><img src="/img/down-arrows.png" height="50" width="100" alt="Down Arrows" class="fade"></a></p>
+</header>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-sand w3-padding-32 w3-container">
@@ -159,10 +145,6 @@ a:active {
 	    <p class="w3-text-black">My former clients include the Internal Revenue Service (IRS), the Department of Veterans Affairs, and the Commodities Futures Trading Commission (CFTC).</p>
 	    <p class="w3-text-black">Stay in touch via email and the social media icons below.</p>
 	  </div>
-	  
-	  <div class="arrow bounce">
-  <a class="fa fa-angle-double-down fa-4x"></a>
-</div>
 
     <div class="w3-third w3-center">
       <i class="fa fa-briefcase w3-padding-64 w3-text-black w3-margin-right" style="text-shadow: 0 0 25px blue;"></i>
@@ -171,11 +153,6 @@ a:active {
 </div>
 
 <!-- Footer -->
-	
-	<div class="arrow bounce">
-		<center><i class="fa fa-angle-double-down fa-4x"></i></center>
-	</div>
-	
 <footer class="w3-container w3-sand w3-padding-64 w3-center">  
 			<a href="mailto:lisablunt1@gmail.com"><i class="fa fa-envelope w3-hover-opacity w3-text-indigo"></i></a>
 			<a href="http://www.github.com/lisablunt/"><i class="fa fa-github w3-hover-opacity w3-text-indigo"></i></a>
