@@ -27,22 +27,22 @@ body,h1,h2,h3,h4,h5,h6, .w3-bar,h1,button {font-family: "Montserrat", sans-serif
               	
 	/* unvisited link */
 a:link {
-    color: green;
+    color: blue;
 }
 
 /* visited link */
 a:visited {
-    color: green;
+    color: gray;
 }
 
 /* mouse over link */
 a:hover {
-    color: red;
+    color: pink;
 }
 
 /* selected link */
 a:active {
-    color: yellow;
+    color: white;
 }
 	
 <-- Arrow Bounce -->
