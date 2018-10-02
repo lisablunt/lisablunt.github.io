@@ -104,7 +104,7 @@ var markers = {
       'properties': {
         'title': 'New Haven, CT',
         'marker-symbol': 'library',
-        'description': 'Summer 2008<br>Interned with Yale University Press.'
+        'description': 'Summer 2008<br>Interned with Yale University Press' publicity and marketing departments.'
       },
       'geometry': {
         'type': 'Point',
