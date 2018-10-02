@@ -89,7 +89,7 @@ var markers = {
       'properties': {
         'title': 'New York, NY',
         'marker-symbol': 'library',
-        'description': 'Summer 2007<br>Internship with the books division of Sports Illustrated.'
+        'description': 'Summer 2007<br>Interned with the books division of Sports Illustrated.'
       },
       'geometry': {
         'type': 'Point',
@@ -104,7 +104,7 @@ var markers = {
       'properties': {
         'title': 'New Haven, CT',
         'marker-symbol': 'library',
-        'description': 'Summer 2008<br>Internship with Yale University Press.'
+        'description': 'Summer 2008<br>Interned with Yale University Press.'
       },
       'geometry': {
         'type': 'Point',
