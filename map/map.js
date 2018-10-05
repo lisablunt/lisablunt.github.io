@@ -134,7 +134,7 @@ var markers = {
       'properties': {
         'title': 'London, UK',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>Waved hello to the Queen, saw Big Ben, and visited nearby Stonehenge. Cheerio!'
+        'description': '2015<br>Waved hello to the Queen, saw Big Ben, and visited nearby Stonehenge.'
       },
       'geometry': {
         'type': 'Point',
@@ -149,7 +149,7 @@ var markers = {
       'properties': {
         'title': 'Paris, FR',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>Ice skated at the Eiffel Tower, visited the Louvre, and ate macarons at Ladurée.'
+        'description': '2015<br>Ice skated at the Eiffel Tower, visited the Louvre, and ate too many macarons.'
       },
       'geometry': {
         'type': 'Point',
