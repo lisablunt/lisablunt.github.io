@@ -1,6 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta name="Description" content="Hi, I'm Lisa. I'm a front-end software engineer.">
 		<!-- Favicon -->
         	<link rel="shortcut icon" type="image/x-icon" href="img/favicon-home.ico">
         	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -25,16 +27,16 @@ body,h1,h2,h3,h4,h5,h6, .w3-bar,h1,button {font-family: "Montserrat", sans-serif
           
 	    h1 {
     		color: black;
-    		text-shadow: 1px 1px 2px blue, 0 0 25px blue, 0 0 5px black;
+    		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
 	        font-size:60px
 		} 
 	
+	
 	    h2 {
-                color: lightgray;
+                color: gray;
                 text-shadow: 2px 1px black;
                 font-size:40px;
-               }	
-	
+               }
                
             body {
                 color: black;
@@ -74,26 +76,15 @@ a:link {
 }
 /* visited link */
 a:visited {
-    color: magenta;
+    color: gray;
 }
 /* mouse over link */
 a:hover {
-    color: lightblue;
+    color: magenta;
 }
 /* selected link */
 a:active {
     color: white;
-}
-	
-header {
-   background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg");
-   background-color: #000000;
-   background-size: cover;
-   background-attachment:fixed;
-}
-	
-div {
-    text-align: justify;
 }
 	
 </style>
@@ -105,14 +96,14 @@ div {
   <div class="w3-bar w3-black w3-card w3-right-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-indigo w3-large w3-indigo" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-indigo">Home</a>
-    <a href="/test/about-v3.html" class="w3-bar-item w3-text-white w3-button w3-hide-small w3-padding-large w3-hover-indigo">About</a>
-    <a href="/test/projects-v3.html" class="w3-bar-item w3-text-white w3-button w3-hide-small w3-padding-large w3-hover-indigo">Projects</a>
+    <a href="/about-v3.html" class="w3-bar-item w3-text-white w3-button w3-hide-small w3-padding-large w3-hover-indigo">About</a>
+    <a href="/projects-v3.html" class="w3-bar-item w3-text-white w3-button w3-hide-small w3-padding-large w3-hover-indigo">Projects</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-indigo w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="/test/about-v3.html" class="w3-bar-item w3-text-white w3-button w3-padding-large">About</a>
-    <a href="/test/projects-v3.html" class="w3-bar-item w3-text-white w3-button w3-padding-large">Projects</a>
+    <a href="/about-v3.html" class="w3-bar-item w3-text-white w3-button w3-padding-large">About</a>
+    <a href="/projects-v3.html" class="w3-bar-item w3-text-white w3-button w3-padding-large">Projects</a>
     
   </div>
 </div>
@@ -121,13 +112,14 @@ div {
 <header class="w3-container w3-sand w3-center" style="padding:64px 16px">
             <h1 class="w3-margin w3-jumbo"><b>Lisa Blunt</b></h1>
   <h2>Hi, I'm Lisa. I'm a software engineer in DC.</h2>
-        <img src="/img/me.png" height="300" width="300" alt="Avatar" style="width:100%;max-width:300px">
+        <img src="/img/avatar.png" height="355" width="358" alt="Avatar" style="width:100%;max-width:358px">
 	<br>
 	<br>
 <div class="arrow bounce">
   <center><i class="fa fa-angle-double-down fa-4x" style="text-shadow: 0 0 25px blue;"></i></center>
 </div>
-	
+</header>
+
 <!-- First Grid -->
 <div class="w3-row-padding w3-sand w3-padding-32 w3-container">
   <div class="w3-content">
@@ -144,24 +136,8 @@ div {
   </div>
 </div>
 
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-32 w3-container center-justified">
-  <div class="w3-content">
-    <div class="w3-twothird">
-	    <h2 class="w3-padding-50"></a>I work on a contract as a 508-HTML Consultant with the Federal Reserve Board.</h2>
-
-      <p class="w3-text-black">I build <a href="https://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973">Section 508</a>-compliant webpages for the Finance and Economics Discussion Series (<a href="https://www.federalreserve.gov/econres/notes/feds-notes/default.htm">FEDS</a>) and International Finance Discussion Papers (<a href="https://www.federalreserve.gov/econres/notes/ifdp-notes/default.htm">IFDP</a>) note portions of the agency’s main website.</p>
-    </div>
-
-                 <div class="w3-third w3-center">
-                 <i class="fa fa-university w3-padding-64 w3-text-black" style="text-shadow: 0 0 25px black;"></i>
-	  </div>
-	  </div>
-  </div>
-</div>
-
 <!-- Second Grid -->
-<div class="w3-row-padding w3-padding-32 w3-container">
+<div class="w3-row-padding w3-sand w3-padding-32 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
       <i class="fa fa-usd w3-padding-64 w3-text-black w3-margin-right" style="text-shadow: 0 0 25px blue;"></i>
@@ -176,11 +152,11 @@ div {
 </div>
 
 <!-- Third Grid -->
-<div class="w3-row-padding w3-padding-32 w3-container">
+<div class="w3-row-padding w3-sand w3-padding-32 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
       <h2 class="w3-padding-50">And before that, I was a Federal Technology Consultant at Deloitte Consulting.</h2> 
-	    <p class="w3-text-black">My former clients include the Internal Revenue Service (IRS), the Department of Veterans Affairs, and the Commodities Futures Trading Commission (CFTC).</p>
+	    <p class="w3-text-black">My former clients include the Internal Revenue Service (IRS), the Department of Veterans Affairs (VA), and the Commodities Futures Trading Commission (CFTC).</p>
 	    <p class="w3-text-black">Stay in touch via email and the social media icons below.</p>
 	  </div>
 
@@ -191,11 +167,11 @@ div {
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center">  
-			<a href="mailto:lisablunt1@gmail.com"><i class="fa fa-envelope w3-hover-opacity w3-text-indigo"></i></a>
-			<a href="http://www.github.com/lisablunt/"><i class="fa fa-github w3-hover-opacity w3-text-indigo"></i></a>
-    			<a href="http://www.twitter.com/lisa_blunt"><i class="fa fa-twitter w3-hover-opacity w3-text-indigo"></i></a>
-   	 		<a href="http://www.linkedin.com/in/lisablunt"><i class="fa fa-linkedin w3-hover-opacity w3-text-indigo"></i></a>
+<footer class="w3-container w3-sand w3-padding-64 w3-center">  
+			<a href="mailto:lisablunt1@gmail.com"><i class="fa fa-envelope w3-hover-opacity w3-text-indigo" title="My Email"></i></a>
+			<a href="http://www.github.com/lisablunt/"><i class="fa fa-github w3-hover-opacity w3-text-indigo" title="My GitHub"></i></a>
+    			<a href="http://www.twitter.com/lisa_blunt"><i class="fa fa-twitter w3-hover-opacity w3-text-indigo" title="My Twitter"></i></a>
+   	 		<a href="http://www.linkedin.com/in/lisablunt"><i class="fa fa-linkedin w3-hover-opacity w3-text-indigo" title="My LinkedIn"></i></a>
 </footer>
 
 <script>
@@ -211,5 +187,4 @@ function myFunction() {
 </script>
 
 </body>
-</header>
 </html>
