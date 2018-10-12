@@ -93,47 +93,6 @@ header {
    background-attachment:fixed;
 }
 	
-/* Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
-
-/* Global */
-html{
-  min-height: 100%;
-  overflow: hidden;
-}
-body{
-  height: calc(100vh - 8em);
-  padding: 4em;
-  color: white;
-  font-family: 'Press Start 2P', monospace;  
-}
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 100%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-}
-
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 44em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
-	
 </style>
 	</head>
 <body>
@@ -160,7 +119,6 @@ body{
 	<center><h1 class="w3-margin w3-jumbo"><b>Lisa Blunt</b></h1>
   <h2>Hi, I'm Lisa. I'm a software engineer in DC.</h2>
         <img src="/img/me.png" height="260" width="250" alt="Avatar" style="width:100%;max-width:250px"></center>
-<h2 class="line-1 anim-typewriter">Hi, I'm Lisa. I'm a software engineer in DC.</h2>
 <div class="arrow bounce">
   <center><i class="fa fa-angle-double-down fa-4x" style="text-shadow: 0 0 25px blue;"></i></center>
 </div>
