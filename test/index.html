@@ -36,14 +36,6 @@ body, html {height: 100%}
     		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
 	        font-size:60px
 		}
-	a {
-		text-decoration: none;
-		}
-	
-/* mouse over link */
-	a:hover {
-    		color: magenta;
-		}
     
 /* Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
@@ -74,19 +66,6 @@ body{
     transform: translateY(-50%);    
 }
 
-.line-2{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 24px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-}
-
 /* Animation */
 .anim-typewriter{
   animation: typewriter 4s steps(44) 1s 1 normal both,
@@ -101,6 +80,24 @@ body{
   to{border-right-color: transparent;}
 }
 	
+/* START ROTATE STYLES */
+
+#rotator img {
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+}
+
+#rotator img:hover {
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+}
+
+/* END ROTATE STYLES */	
+
 </style>
 	</head>
 <body>
@@ -108,6 +105,8 @@ body{
 <!-- Header -->
 	<center><h1 class="w3-margin w3-jumbo"><b>Lisa Blunt</b></h1>
   	<p class="line-1 anim-typewriter">Hi, I'm Lisa. I'm a software engineer in DC.</p>
-        <a href="/test/index-v3.html"><img src="/img/me.png" height="260" width="250" alt="Avatar" style="width:100%;max-width:250px"></center></a>
+        <div id="rotator">
+		<a href="/test/index-v3.html"><img src="/img/me.png" height="260" width="250" alt="Avatar" style="width:100%;max-width:250px"></center></a>
+</div>
 </body>
 </html>
