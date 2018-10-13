@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="Description" content="Hi, I'm Lisa. I'm a front-end software engineer.">
+		<!-- Favicon -->
+        	<link rel="shortcut icon" type="image/x-icon" href="img/favicon-LB.ico">
+        	<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-8013291-2"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'UA-8013291-2');
+	</script>
+	
+<title>Lisa Blunt | Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P|Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h3,h4,h5,h6, .w3-bar,h1,button {font-family: "Open Sans", sans-serif}
+h1 {font-family: 'Montserrat', cursive;}
+h2 {font-family: 'Press Start 2P', cursive;}
+.fa-university,.fa-usd, .fa-briefcase {font-size:200px}
+.fa-envelope,.fa-github, .fa-twitter, .fa-linkedin {font-size:25px}
+          
+	    h1 {
+    		color: white;
+    		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
+	        font-size:60px
+		} 
+	
+	
+	    h2 {
+                color: white;
+                text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
+                font-size:24px;
+               }
+               
+            body {
+                color: white;
+                font-size:20px;
+	          }   
+                           
+            .responsive {
+                width: 25%;
+                height: 25%;
+               }
+	
+	<!-- Arrow Bounce -->
+i { color: #3f51b5; 
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+	
+/* unvisited link */
+a:link {
+    color: mediumbluw;
+}
+/* visited link */
+a:visited {
+    color: chocolate;
+}
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+/* selected link */
+a:active {
+    color: white;
+}
+	
+header {
+   background-image: url("/img/indigo-gradient.jpg");
+   background-size: cover;
+   background-attachment:fixed;
+}
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: #FFFFFF;
+  font-family: 'Press Start 2P', cursive;  
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
+  background-image: url("/img/indigo-gradient.jpg");  
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 24px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 44em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+	
+</style>
+	</head>
+<body>
+
+<!-- Header -->
+<header class="w3-container" style="padding:64px 16px">
+	<center><h1 class="w3-margin w3-jumbo"><b>Lisa Blunt</b></h1>
+  <p class="line-1 anim-typewriter">Hi, I'm Lisa. I'm a software engineer in DC.</p>
+        <a href="/test/index-v3"><img src="/img/me.png" height="260" width="250" alt="Avatar" style="width:100%;max-width:250px"></a></center>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center">  
+	<a href="/contact"><i class="fa fa-envelope w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="Contact"></i></a>
+	<a href="http://www.github.com/lisablunt/" target="_blank" rel="noopener"><i class="fa fa-github w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="GitHub"></i></a>
+    	<a href="http://www.twitter.com/lisa_blunt" target="_blank" rel="noopener"><i class="fa fa-twitter w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="Twitter"></i></a>
+   	<a href="http://www.linkedin.com/in/lisablunt" target="_blank" rel="noopener"><i class="fa fa-linkedin w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="LinkedIn"></i></a>
+</footer>
+
+</body>
+</header>
+</html>
