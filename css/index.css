@@ -1,45 +1,77 @@
-/* unvisited link */
-a:link {
-    color: blue;
-}
-
-/* visited link */
-a:visited {
-    color: gray;
-}
-
-/* mouse over link */
-a:hover {
-    color: pink;
-}
-
-/* selected link */
-a:active {
-    color: white;
+.fa-envelope,.fa-github, .fa-twitter, .fa-linkedin {font-size:50px}
+h1 {font-family: "Montserrat", sans-serif}
+body {font-family: "Press Start 2P", cursive}
+body, html {height: 100%}
+.bgimg {
+    background-image: url("/img/indigo-gradient.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 	
-<-- Arrow Bounce -->
+	h1 {
+    		color: white;
+    		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
+	        font-size:60px
+		}
+    
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
-a { color: #3f51b5; text-decoration: none; }
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: #FFFFFF;
+  font-family: 'Press Start 2P', cursive;  
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
+  background-image: url("/img/indigo-gradient.jpg");  
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 24px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
 
-.arrow {
-  text-align: center;
-  margin: 8% 0;
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
 }
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 44em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+	
+/* START ROTATE STYLES */
+
+#rotator img {
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
 }
 
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
+#rotator img:hover {
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
 }
+
+/* END ROTATE STYLES */	
