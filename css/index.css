@@ -50,12 +50,6 @@ i { color: #3f51b5;
 
 <!-- End Arrow Bounce -->
 
-header {
-   background-image: url("/img/indigo-gradient.jpg");
-   background-size: cover;
-   background-attachment:fixed;
-}
-
 a {
     text-decoration:none; 
   }
@@ -77,4 +71,10 @@ a:hover {
 a:active {
     color: white;
     text-decoration: underline;
+}
+
+header {
+   background-image: url("/img/indigo-gradient.jpg");
+   background-size: cover;
+   background-attachment:fixed;
 }
