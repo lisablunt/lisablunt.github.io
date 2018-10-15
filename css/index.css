@@ -50,29 +50,6 @@ i { color: #3f51b5;
 
 <!-- End Arrow Bounce -->
 
-a {
-    text-decoration: none;
-}
-
-/* unvisited link */
-a:link {
-    color: yellow;
-}
-/* visited link */
-a:visited {
-    color: mediumblue;
-}
-/* mouse over link */
-a:hover {
-    color: magenta;
-    text-decoration: underline;
-}
-/* selected link */
-a:active {
-    color: white;
-    text-decoration: underline;
-}
-	
 header {
    background-image: url("/img/indigo-gradient.jpg");
    background-size: cover;
