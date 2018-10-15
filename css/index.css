@@ -50,6 +50,10 @@ i { color: #3f51b5;
 
 <!-- End Arrow Bounce -->
 
+a {
+    text-decoration: none;
+}
+
 /* unvisited link */
 a:link {
     color: yellow;
