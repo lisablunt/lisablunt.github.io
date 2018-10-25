@@ -119,7 +119,7 @@ var markers = {
       'properties': {
         'title': 'Sacramento, CA',
         'marker-symbol': 'pitch',
-        'description': '2015<br>Attended a hackathon at Twitter HQ in SF.' 
+        'description': '2015<br>Attended the <a href="https://chimehack2.devpost.com/" target="_blank" rel="noopener">CHIMEHACK 2</a> hackathon at Twitter HQ in SF.' 
       },
       'geometry': {
         'type': 'Point',
