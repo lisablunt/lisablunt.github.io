@@ -1,50 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta name="Description" content="Hi, I'm Lisa. I'm a front-end software engineer.">
-		<!-- Favicon -->
-        	<link rel="shortcut icon" type="image/x-icon" href="img/favicon-LB.ico">
-        	<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-8013291-2"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-  		gtag('config', 'UA-8013291-2');
-	</script>
+<head>
+  <meta name="Description" content="Hi, I'm Lisa. I'm a front-end software engineer.">
+<!-- Favicon -->
+   <link rel="shortcut icon" type="image/x-icon" href="img/favicon-LB.ico">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-8013291-2"></script>
+   <script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+  	gtag('config', 'UA-8013291-2');
+   </script>
 	
 <title>Lisa Blunt | Home</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="/css/test.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Press+Start+2P|Montserrat">
+<link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+
+<style>
+.fa-university,.fa-usd, .fa-briefcase {font-size:200px}
+.fa-envelope,.fa-github, .fa-twitter, .fa-linkedin {font-size:25px}
 	
-<!-- Navbar 
+a {
+      text-decoration:none; 
+  }
+	
+/* unvisited link */
+a:link {
+    color: yellow;
+}
+/* visited link */
+a:visited {
+    color: mediumblue;
+}
+/* mouse over link */
+a:hover {
+    color: magenta;
+    text-decoration: underline;
+}
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: underline;
+}
+header {
+   background-image: url("/img/indigo-gradient.jpg");
+   background-size: cover;
+   background-attachment:fixed;
+}	
+p {
+    text-shadow: 1px 1px 2px black, 0 0 5px white;
+}
+	
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    color: black;
+    text-shadow: 1px 1px 2px black, 0 0 5px white;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    font-size: 15px;
+    width: 320px;
+    background-color: black;
+    color: #fff;
+    text-align: center-justify;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}	
+	
+/* Second Tooltip */
+
+.more_info {
+    border-bottom: 1px dotted #000;
+    position: relative;
+    cursor: pointer;
+}
+
+.more_info .popup {
+    position: absolute;
+    top: 15px; /*must overlap parent element otherwise pop-up doesn't stay open when rolling over '*/
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 8px;
+    left: 8;
+    max-width: 240px;
+    min-width: 180px;
+    z-index: 100;
+    display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+
+    //init pop-ups
+    $(".popup").attr("data-close", false);
+
+    //click on pop-up opener.
+    //pop-up is expected to be a child of opener
+    $(".more_info").click(function () {
+        var $title = $(this).find(".popup");
+        //open if not marked for closing
+        if ($title.attr("data-close") === "false") {
+            $title.show();
+        }
+        //reset popup         
+        $title.attr("data-close", false);
+    });
+
+    //mark pop-up for closing if clicked on
+    //close is initiated by document.mouseup, 
+    //marker will stop opener from re-opening it
+    $(".popup").click(function () {
+        $(this).attr("data-close",true);
+    });
+
+    //hide all pop-ups
+    $(document).mouseup(function () {
+        $(".popup").hide();
+
+    });
+
+    //show on rollover if mouse is used
+    $(".more_info").mouseenter(function () {
+        var $title = $(this).find(".popup");
+        $title.show();
+    });
+
+    //hide on roll-out
+    $(".more_info").mouseleave(function () {
+        var $title = $(this).find(".popup");
+        $title.hide();
+    });  
+
+});
+</script>
+	
+<body>	
+<!-- Navbar -->
 <div class="w3-bottom">
   <div class="w3-bar w3-black w3-card w3-right-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-indigo w3-large w3-indigo" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="/test/index-v3a" class="w3-bar-item w3-button w3-padding-large w3-indigo">Home</a>
-    <a href="/test/about-v3a.html" class="w3-bar-item w3-text-white w3-button w3-hide-small w3-padding-large w3-hover-indigo">About</a>
-    <a href="/test/projects-v3a.html" class="w3-bar-item w3-text-white w3-button w3-hide-small w3-padding-large w3-hover-indigo">Projects</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-indigo">Home</a>
+    <a href="/about-v3.html" class="w3-bar-item w3-text-white w3-button w3-hide-small w3-padding-large w3-hover-indigo">About</a>
+    <a href="/projects-v3.html" class="w3-bar-item w3-text-white w3-button w3-hide-small w3-padding-large w3-hover-indigo">Projects</a>
   </div>
---> 
-  <!-- Navbar on small screens 
+
+  <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-indigo w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="/test/about-v3a.html" class="w3-bar-item w3-text-white w3-button w3-padding-large">About</a>
-    <a href="/test/projects-v3a.html" class="w3-bar-item w3-text-white w3-button w3-padding-large">Projects</a>
--->   
+    <a href="/about-v3.html" class="w3-bar-item w3-text-white w3-button w3-padding-large">About</a>
+    <a href="/projects-v3.html" class="w3-bar-item w3-text-white w3-button w3-padding-large">Projects</a>    
   </div>
 </div>
 
 <!-- Header -->
 <header class="w3-container" style="padding:64px 16px">
 	<center><h1 class="w3-margin w3-jumbo"><b>Lisa Blunt</b></h1>
-  <p class="line-1 anim-typewriter">Hi, I'm Lisa. I'm a software engineer in DC.</p>
-        <img src="/img/me.png" height="260" width="250" alt="Avatar" style="width:100%;max-width:250px"></center>
+  <h2>Hi, I'm Lisa. I'm a software engineer in DC.</h2>
+        <img src="/img/me(1).png" height="257" width="250" alt="Image" style="width:100%;max-width:250px"></center>
+	<br>
+<div class="arrow bounce">
+  <center><i class="fa fa-angle-double-down fa-4x" style="text-shadow: 0 0 25px blue;"></i></center>
+</div>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-32 w3-container">
@@ -52,9 +194,8 @@
     <div class="w3-twothird">
 	    <h2 class="w3-padding-50"></a>I work on a contract as a 508-HTML Consultant with the Federal Reserve Board.</h2>
 
-      <p class="w3-text-black" style="text-shadow: 1px 1px 2px black, 0 0 5px white;">I build <a href="https://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973" target="_blank" rel="noopener">Section 508</a>-compliant webpages for the Finance and Economics Discussion Series (<a href="#" target="_blank" rel="noopener">FEDS</a>) and International Finance Discussion Papers (<a href="#" target="_blank" rel="noopener">IFDP</a>) note portions of the agency’s main website.</p>
+      <p class="w3-text-black">I build <a href="https://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973" target="_blank" rel="noopener">Section 508</a>-compliant webpages for the Finance and Economics Discussion Series (<a href="https://www.federalreserve.gov/econres/notes/feds-notes/default.htm" target="_blank" rel="noopener">FEDS</a>) and International Finance Discussion Papers (<a href="https://www.federalreserve.gov/econres/notes/ifdp-notes/default.htm" target="_blank" rel="noopener">IFDP</a>) note portions of the agency’s main website.</p>
     </div>
-
                  <div class="w3-third w3-center">
                  <i class="fa fa-university w3-padding-64 w3-text-black" style="text-shadow: 0 0 25px blue;"></i>
 	  </div>
@@ -68,11 +209,11 @@
     <div class="w3-third w3-center">
       <i class="fa fa-usd w3-padding-64 w3-text-black w3-margin-right" style="text-shadow: 0 0 25px blue;"></i>
     </div>
-
+	  
     <div class="w3-twothird">
       <h2 class="w3-padding-50">Before that, I worked on a contract as a Web Content Manager with the Federal Deposit Insurance Corporation (FDIC).</h2>
 
-      <p class="w3-text-black" style="text-shadow: 1px 1px 2px black, 0 0 5px white;">There, I maintained webpages on the agency’s external and intranet websites.</p><br>
+      <p class="w3-text-black">There, I maintained webpages on the agency’s external and intranet websites.</p>
     </div>
   </div>
 </div>
@@ -81,9 +222,14 @@
 <div class="w3-row-padding w3-padding-32 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h2 class="w3-padding-50">And before that, I was a Federal Technology Consultant at Deloitte Consulting.</h2> 
-	    <p class="w3-text-black" style="text-shadow: 1px 1px 2px black, 0 0 5px white;">My former clients include the <b>Internal Revenue Service (IRS)</b>, the <b>Department of Veterans Affairs (VA)</b>, and the <b>Commodities Futures Trading Commission (CFTC)</b>.</p>
-	    <p class="w3-text-black" style="text-shadow: 1px 1px 2px black, 0 0 5px white;">Stay in touch via email and the social media icons below.</p>
+      <h2 class="w3-padding-50">And before that, I was a Federal Technology Consultant in the Systems Integration service line at Deloitte.</h2> 
+	    <p class="w3-text-black">My former clients include:</p>
+	    <ul class="w3-text-black">
+		    <li><span class="more_info">Internal Revenue Service (IRS)<div class="popup">I developed program- and project-level requirements to integrate Affordable Care Act tax provisions into the agency's new and legacy systems.<div></span></li>
+		    <li><div class="tooltip">Department of Veterans Affairs (VA)<span class="tooltiptext">I supported the redesign of the Veterans Affairs Program Management Center of Excellence (VA PMCOE) SharePoint intranet site by collecting, analyzing, and maintaining information regarding the site enhancement’s requirements gathering and development processes.</span></div></li>
+		    <li><div class="tooltip">Commodities Futures Trading Commission (CFTC)<span class="tooltiptext">I established a requirements gathering and standards implementation model for the agency to follow in launching internal applications.</span></div></li>
+	    </ul>
+	    <p class="w3-text-black">Message me or stay in touch via the social media icons below.</p>
 	  </div>
 
     <div class="w3-third w3-center">
@@ -100,7 +246,6 @@
    	<a href="http://www.linkedin.com/in/lisablunt" target="_blank" rel="noopener"><i class="fa fa-linkedin w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="LinkedIn"></i></a>
 </footer>
 
-<!--
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
@@ -112,7 +257,6 @@ function myFunction() {
     }
 }
 </script>
--->
 
 </body>
 </header>
