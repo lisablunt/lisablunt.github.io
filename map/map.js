@@ -119,7 +119,7 @@ var markers = {
       'properties': {
         'title': 'Sacramento, CA',
         'marker-symbol': 'pitch',
-        'description': '2015<br>Attended the <a href="https://chimehack2.devpost.com/" target="_blank" rel="noopener">CHIMEHACK 2</a> hackathon at<br>Twitter HQ in SF.' 
+        'description': 'Summer 2015<br>Attended the <a href="https://chimehack2.devpost.com/" target="_blank" rel="noopener">CHIMEHACK 2</a> hackathon at<br>Twitter HQ in SF.' 
       },
       'geometry': {
         'type': 'Point',
@@ -134,7 +134,7 @@ var markers = {
       'properties': {
         'title': 'London, UK',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>Waved hello to the Queen, saw Big Ben, and visited nearby Stonehenge.'
+        'description': 'Winter 2015<br>Waved hello to the Queen, saw Big Ben, and visited nearby Stonehenge.'
       },
       'geometry': {
         'type': 'Point',
@@ -149,7 +149,7 @@ var markers = {
       'properties': {
         'title': 'Paris, FR',
         'marker-symbol': 'suitcase',
-        'description': '2015<br>Ice skated at the Eiffel Tower, visited the Louvre, and ate too many macarons.'
+        'description': 'Winter 2015<br>Ice skated at the Eiffel Tower, visited the Louvre, and ate too many macarons.'
       },
       'geometry': {
         'type': 'Point',
@@ -164,7 +164,7 @@ var markers = {
       'properties': {
         'title': 'Hamilton, Bermuda',
         'marker-symbol': 'suitcase',
-        'description': '2014<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
+        'description': ' Fall 2014<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
       },
       'geometry': {
         'type': 'Point',
