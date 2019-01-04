@@ -3,7 +3,7 @@
 	<head>
 		<meta name="Description" content="Hi, I'm Lisa. I'm a front-end software engineer.">
 		<!-- Favicon -->
-        	<link rel="shortcut icon" type="image/x-icon" href="img/favicon-LB.ico">
+        	<link rel="shortcut icon" type="image/x-icon" href="img/favicon-LB.ico"> 
         	<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-8013291-2"></script>
 	<script>
@@ -20,55 +20,40 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5,h6, .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-envelope,.fa-github, .fa-twitter, .fa-linkedin {font-size:25px}
-            
-	    h1 {
+h1, body {font-family: "Montserrat", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url("/img/indigo-gradient.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+	
+	h1 {
     		color: white;
     		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
 	        font-size:60px
-		} 
+		}
+	a {
+		text-decoration: none;
+		}
 	
+/* mouse over link */
+	a:hover {
+    		color: magenta;
+		}
 	
-	    h2 {
-                color: white;
-                text-shadow: 2px 1px black;
-                font-size:25px;
-               }
-               
-            body {
+	 body {
                 color: white;
 		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
                 font-size:20px;
 	         }
 	
-/* unvisited link */
-a:link {
-    color: mediumblue;
-}
-/* visited link */
-a:visited {
-    color: gray;
-}
-/* mouse over link */
-a:hover {
-    color: magenta;
-}
-/* selected link */
-a:active {
-    color: white;
-}
-	
-header {
-   background-image: url("/img/indigo-gradient.jpg");
-   background-size: cover;
-   background-attachment:fixed;
-}
-            
 </style>
-</head>
+	</head>
 <body>
-
+	
 <!-- Navbar -->
 <div class="w3-bottom">
   <div class="w3-bar w3-black w3-card w3-right-align w3-large">
@@ -78,15 +63,18 @@ header {
     <a href="/projects-v3.html" class="w3-bar-item w3-text-white w3-button w3-hide-small w3-padding-large w3-hover-indigo">Projects</a>
   </div>
 
-  <!-- Navbar on small screens -->
+<!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-indigo w3-hide w3-hide-large w3-hide-medium w3-large">
     <a href="/index-v3.html" class="w3-bar-item w3-text-white w3-button w3-padding-large">Home</a>
     <a href="/about-v3.html" class="w3-bar-item w3-text-white w3-button w3-padding-large">About</a>
     <a href="/projects-v3.html" class="w3-bar-item w3-text-white w3-button w3-padding-large">Projects</a>
-    </div>
+    
+  </div>
 </div>
 
-<!-- Header -->
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-middle">
+      <!-- Header -->
 <header class="w3-container" style="padding:64px 16px">
             <h1 class="w3-margin w3-jumbo"><center><b>Contact</b></center></h1>
 	    <p><center>Send me a message using the form below.</center></p>	
@@ -103,15 +91,16 @@ header {
 	<button type="submit">Send</button></p>
 </form>
 </center>
-	
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center">  
-	<a href="#"><i class="fa fa-envelope w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="Contact"></i></a>
-	<a href="http://www.github.com/lisablunt/" target="_blank" rel="noopener"><i class="fa fa-github w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="GitHub"></i></a>
-    	<a href="http://www.twitter.com/lisa_blunt" target="_blank" rel="noopener"><i class="fa fa-twitter w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="Twitter"></i></a>
-   	<a href="http://www.linkedin.com/in/lisablunt" target="_blank" rel="noopener"><i class="fa fa-linkedin w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="LinkedIn"></i></a>
-</footer>
 
+   <footer class="w3-container w3-padding-64 w3-center">  
+	      		<a href="/contact"><i class="fa fa-envelope w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="Contact"></i></a>
+	                <a href="http://www.github.com/lisablunt/" target="_blank" rel="noopener"><i class="fa fa-github w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="GitHub"></i></a>
+    			<a href="http://www.twitter.com/lisa_blunt" target="_blank" rel="noopener"><i class="fa fa-twitter w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="Twitter"></i></a>
+   	 		<a href="http://www.linkedin.com/in/lisablunt" target="_blank" rel="noopener"><i class="fa fa-linkedin w3-hover-opacity w3-text-indigo" style="text-shadow: 0 0 25px white;" title="LinkedIn"></i></a>
+    </footer>
+  </div>
+</div>
+	
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
@@ -123,8 +112,6 @@ function myFunction() {
     }
 }
 </script>
-
-</header>
+	
 </body>
 </html>
-
