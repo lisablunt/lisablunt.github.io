@@ -132,21 +132,6 @@ var markers = {
     {
       'type': 'Feature',
       'properties': {
-        'title': 'Hamilton, Bermuda',
-        'marker-symbol': 'suitcase',
-        'description': ' Fall 2014<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
-      },
-      'geometry': {
-        'type': 'Point',
-        'coordinates': [
-          -64.790337,
-          32.299507
-        ]
-      }
-    },
-    {
-      'type': 'Feature',
-      'properties': {
         'title': 'London, UK',
         'marker-symbol': 'suitcase',
         'description': 'Winter 2015<br>Waved hello to the Queen, saw Big Ben, and visited nearby Stonehenge.'
@@ -171,6 +156,21 @@ var markers = {
         'coordinates': [
           2.3522,
           48.8566
+        ]
+      }
+    },
+    {
+      'type': 'Feature',
+      'properties': {
+        'title': 'Hamilton, Bermuda',
+        'marker-symbol': 'suitcase',
+        'description': ' Fall 2014<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          -64.790337,
+          32.299507
 ]
       }
     }
