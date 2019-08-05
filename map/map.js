@@ -159,6 +159,21 @@ var markers = {
         ]
       }
     },
+        {
+      'type': 'Feature',
+      'properties': {
+        'title': 'Amsterdam, NL',
+        'marker-symbol': 'suitcase',
+        'description': 'Winter 2015<br>The people here are very nice and accomodating to travellers.'
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          4.899431,
+          52.379189
+        ]
+      }
+    },
     {
       'type': 'Feature',
       'properties': {
