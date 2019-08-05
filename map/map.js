@@ -164,7 +164,7 @@ var markers = {
       'properties': {
         'title': 'Amsterdam, NL',
         'marker-symbol': 'suitcase',
-        'description': 'Winter 2015<br>The people here are very nice and accomodating to travellers.'
+        'description': 'Winter 2015<br>The people here were very nice and accomodating to a sick traveller.'
       },
       'geometry': {
         'type': 'Point',
