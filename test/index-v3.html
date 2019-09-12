@@ -101,13 +101,16 @@ p {
 	
 .container {
   display: flex;
-  border:10px solid blue;
   flex-direction:row;
 }
 	
 .box {
   width:500px;
 }
+	
+.box1 {border:10px solid blue;}
+.box2 {border:10px solid red;}
+.box3 {border:10px solid green;}
 	
 </style>
 	
@@ -137,18 +140,38 @@ p {
 <div class="arrow bounce">
   <center><i class="fa fa-angle-double-down fa-4x" style="text-shadow: 0 0 25px blue;"></i></center>
 </div>
-
-	
 	
 <!-- First Flexbox Grid -->
   <div class="container">
-	    <div class="box box1"><h2>I work on a contract as a 508-HTML Consultant with the Federal Reserve Board.</h2>
-
-      <p class="w3-text-black">I build <a href="https://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973" target="_blank" rel="noopener">Section 508</a>-compliant webpages for the Finance and Economics Discussion Series (<a href="https://www.federalreserve.gov/econres/notes/feds-notes/default.htm" target="_blank" rel="noopener">FEDS</a>) and International Finance Discussion Papers (<a href="https://www.federalreserve.gov/econres/notes/ifdp-notes/default.htm" target="_blank" rel="noopener">IFDP</a>) note portions of the agency’s main website.</div>
-                 <i class="fa fa-university w3-padding-64 w3-text-black" style="text-shadow: 0 0 25px blue;"></i>
+	    <div class="box box1">
+		    <h2>I work on a contract as a 508-HTML Consultant with the Federal Reserve Board.</h2>
+		    <p class="w3-text-black">I build <a href="https://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973" target="_blank" rel="noopener">Section 508</a>-compliant webpages for the Finance and Economics Discussion Series (<a href="https://www.federalreserve.gov/econres/notes/feds-notes/default.htm" target="_blank" rel="noopener">FEDS</a>) and International Finance Discussion Papers (<a href="https://www.federalreserve.gov/econres/notes/ifdp-notes/default.htm" target="_blank" rel="noopener">IFDP</a>) note portions of the agency’s main website.</div>
+      <i class="fa fa-university w3-padding-64 w3-text-black" style="text-shadow: 0 0 25px blue;"></i>
 </p>
 	</div>
+
+<!-- Second Flexbox Grid -->
+	
+<div class="box box2">
+	  <i class="fa fa-usd w3-padding-64 w3-text-black w3-margin-right" style="text-shadow: 0 0 25px blue;"></i>
+	  <h2>Before that, I worked on a contract as a Web Content Manager with the Federal Deposit Insurance Corporation (FDIC).</h2>
+	  <p class="w3-text-black">There, I maintained webpages on the agency’s external and intranet websites.</p>
+ </div>
+	
+<!-- Third Flexbox Grid -->
+	
+<div class="box box3">
+	<h2>And before that, I was a Federal Technology Consultant in the Systems Integration service line at Deloitte.</h2>
+	<p class="w3-text-black">My former clients include:</p>
+	    <ul class="w3-text-black">
+		    <li><div class="tooltip"><a id="IRS"></a><a href="#IRS" style="color:black;">Internal Revenue Service (IRS)</a><span class="tooltiptext">I developed program- and project-level requirements to integrate Affordable Care Act tax provisions into the agency's new and legacy systems.</span></div></li>
+		    <li><div class="tooltip"><a id="VA"></a><a href="#VA" style="color:black;">Department of Veterans Affairs (VA)</a><span class="tooltiptext">I supported the redesign of the Veterans Affairs Program Management Center of Excellence (VA PMCOE) SharePoint intranet site by collecting, analyzing, and maintaining information regarding the site enhancement’s requirements gathering and development processes.</span></div></li>
+		    <li><div class="tooltip"><a id="CFTC"></a><a href="#CFTC" style="color:black;">Commodities Futures Trading Commission (CFTC)</a><span class="tooltiptext">I established a requirements gathering and standards implementation model for the agency to follow in launching internal applications.</span></div></li>
+	    </ul>
+	    <p class="w3-text-black">Message me or stay in touch via the social media icons below.</p>
 	</div>
+	
+	
 	
 	
 	
