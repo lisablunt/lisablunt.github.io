@@ -9,11 +9,11 @@ body, html {height: 100%}
     background-size: cover;
 }
 	
-	h1 {
-    		color: white;
-    		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
-	        font-size:60px
-		}
+h1 {
+ color: white;
+ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
+ font-size:60px
+}
     
 /* Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
