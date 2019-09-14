@@ -65,12 +65,11 @@ a:active {
 }
 /* Global */
 html{
-  min-height: 100%;
+  height: 100%;
   overflow: hidden;
 }
 	
 body{
-  height: calc(100vh - 8em);
   padding: 4em;
   color: #FFFFFF;
   font-family: 'Montserrat', cursive;  
@@ -91,6 +90,18 @@ body{
     overflow: hidden;
     transform: translateY(-50%);    
 }
+
+body, html{
+  height: 100%;
+}
+
+.container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Animation */
 .anim-typewriter{
   animation: typewriter 6s steps(44) 1s 1 normal both,
@@ -106,7 +117,7 @@ body{
 }
 	
 </style>
-	</head>
+</head>
 <body>
 
 <!-- Header -->
@@ -114,7 +125,11 @@ body{
 <br />
 <br />
 <br />
-<center><p class="line-1 anim-typewriter">Welcome to my website. Click below to enter.</p>
+<center>
+<div class="container">
+<p class="line-1 anim-typewriter">Welcome to my website. Click below to enter.</p>
+</div>
+</center>
 <a href="/test/index-v3"><img src="/img/me.png" height="260" width="250" alt="Avatar" style="width:100%;max-width:250px" class="w3-hover-opacity"></a></center>
 </header>
 </body>
