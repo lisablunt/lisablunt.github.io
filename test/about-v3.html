@@ -23,9 +23,28 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
-.fa-graduation-cap,.fa-lightbulb-o, .fa-desktop, .fa-trophy, .fa-book, .fa-hourglass-half {font-size:200px}
+.fa-graduation-cap,.fa-lightbulb-o, .fa-desktop, .fa-trophy, .fa-book, .fa-hourglass-half {font-size:200px; padding:10px}
 .fa-envelope,.fa-github, .fa-twitter, .fa-linkedin {font-size:25px}
-	
+
+.i1 {
+  float: right;
+}
+.i2 {
+  float: left;
+}
+.i3 {
+  float: right;
+}
+.i4 {
+  float: left;
+}
+.i5 {
+  float: right;
+}
+.i6 {
+  float: left;
+}
+
 a {
       text-decoration:none; 
   }
@@ -59,6 +78,33 @@ header {
    background-color:#898989;
 }	
 	
+.w3-content {
+  display:flex;
+  justify-content:space-between; 
+}
+	
+.container {
+  display: flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-content:center;
+}
+	
+	
+.box {
+  width:700px;
+}
+	
+/*	
+.box1 {border:10px solid blue;}
+.box2 {border:10px solid red;}
+.box3 {border:10px solid green;}
+.box4 {border:10px solid blue;}
+.box5 {border:10px solid red;}
+.box6 {border:10px solid green;}
+*/
+	
 </style>
 </head>
 	
@@ -83,6 +129,56 @@ header {
 <header class="w3-container" style="padding:64px 16px">
             <center><h1 class="w3-margin w3-jumbo"><b>About</b></h1></center>
 
+<!-- First Flexbox Grid -->
+
+<div class="container">
+	    <div class="box box1">
+		    <h2 class="w3-padding-50">I come from a non-traditional technology background,</h2>
+			<div class="i i1">
+		    	 <p class="w3-text-black" style="text-shadow: 1px 1px 2px black, 0 0 5px white;">having earned a degree in Literatures and Cultures in English from Brown University. I discovered my passion for technology by taking an English course called “Electronic Media.” My capstone project for that class was to build a website from scratch using self-taught HTML, CSS, and Adobe Dreamweaver to tell a creative non-fiction story.</p>
+    </div>
+                 <i class="fa fa-graduation-cap w3-padding-64 w3-text-black" style="text-shadow: 0 0 25px blue;"></i>
+	  </div>
+	</div>
+	<br>
+	
+<!-- Second Flexbox Grid 
+
+<div class="container">
+<div class="box box2">
+	<div class="w3-cell w3-cell-middle">
+	<h2>Before that, I worked on a contract as a Web Content Manager with the Federal Deposit Insurance Corporation (FDIC).</h2>
+	<br>
+	<div class="i i2">
+          	<i class="fa fa-usd w3-text-black" style="text-shadow: 0 0 25px blue;"></i>
+	</div>
+	<br>
+	<p class="w3-text-black">There, I maintained webpages on the agency’s external and intranet websites.</p>
+ </div>
+	</div>
+	</div>	
+	<br>
+	
+/* Third Flexbox Grid 
+
+<div class="container">
+<div class="box box3">
+	<h2>And before that, I was a Federal Technology Consultant in the Systems Integration service line at Deloitte.</h2>
+	<br>
+	<p class="w3-text-black">My former clients include:</p>
+	    <ul class="w3-text-black">
+		    <li><div class="tooltip"><a id="IRS"></a><a href="#IRS" style="color:black;">Internal Revenue Service (IRS)</a><span class="tooltiptext">I developed program- and project-level requirements to integrate Affordable Care Act tax provisions into the agency's new and legacy systems.</span></div></li>
+		    <li><div class="tooltip"><a id="VA"></a><a href="#VA" style="color:black;">Department of Veterans Affairs (VA)</a><span class="tooltiptext">I supported the redesign of the Veterans Affairs Program Management Center of Excellence (VA PMCOE) SharePoint intranet site by collecting, analyzing, and maintaining information regarding the site enhancement’s requirements gathering and development processes.</span></div></li>
+		    <li><div class="tooltip"><a id="CFTC"></a><a href="#CFTC" style="color:black;">Commodities Futures Trading Commission (CFTC)</a><span class="tooltiptext">I established a requirements gathering and standards implementation model for the agency to follow in launching internal applications.</span></div></li>
+	    </ul>
+	    <div class="i i3">
+		<i class="fa fa-briefcase w3-text-black w3-margin-right" style="text-shadow: 0 0 25px blue;"></i>
+	    </div>
+	    <p class="w3-text-black">Message me or stay in touch via the social media icons below.</p>
+	</div>
+	</div>
+-->
+	
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-32 w3-container">
   <div class="w3-content">
