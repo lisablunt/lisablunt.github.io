@@ -179,7 +179,7 @@ var markers = {
       'properties': {
         'title': 'Hamilton, Bermuda',
         'marker-symbol': 'suitcase',
-        'description': ' Fall 2013<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
+        'description': ' Summer 2013<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
       },
       'geometry': {
         'type': 'Point',
