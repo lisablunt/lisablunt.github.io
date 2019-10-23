@@ -135,7 +135,7 @@ var markers = {
       'properties': {
         'title': 'Toronto, ON, CAN',
         'marker-symbol': 'suitcase',
-        'description': '1988<br>My very first international trip.'
+        'description': '1988<br>My very first trip outside the U.S.'
       },
       'geometry': {
         'type': 'Point',
