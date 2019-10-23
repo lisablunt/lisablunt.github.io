@@ -130,22 +130,22 @@ var markers = {
       }
     },
       /* Begin Canadian cities */
-      {
+    {
       'type': 'Feature',
       'properties': {
         'title': 'Toronto, ON, CAN',
         'marker-symbol': 'suitcase',
-        'description': '1988<br>My lifelong travel bug was caught here.'
+        'description': '1988<br>My lifelong love of travel was born here.'
       },
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          43.6532,
-          79.3832
+          79.3832,
+          43.6532
         ]
       }
     },
-        {
+    {
       'type': 'Feature',
       'properties': {
         'title': 'Montréal, QC, CAN',
@@ -155,12 +155,12 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          45.5017,
-          73.5673
+          73.5673,
+          45.5017
         ]
       }
     },
-        {
+    {
       'type': 'Feature',
       'properties': {
         'title': 'Québec, QC, CAN',
@@ -170,8 +170,8 @@ var markers = {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          46.8139,
-          71.2080
+          71.2080,
+          46.8139
         ]
       }
     },
