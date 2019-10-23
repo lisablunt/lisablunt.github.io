@@ -135,7 +135,7 @@ var markers = {
       'properties': {
         'title': 'Toronto, ON, CAN',
         'marker-symbol': 'suitcase',
-        'description': '1988<br>My lifelong love of travel was born here.'
+        'description': '1988<br>My very first international trip.'
       },
       'geometry': {
         'type': 'Point',
@@ -165,7 +165,7 @@ var markers = {
       'properties': {
         'title': 'Québec, QC, CAN',
         'marker-symbol': 'suitcase',
-        'description': '1996<br>Visited as part of a penpal exchange with a local elementary school.'
+        'description': '1996<br>Visited as part of a penpal exchange with a Montréal elementary school.'
       },
       'geometry': {
         'type': 'Point',
