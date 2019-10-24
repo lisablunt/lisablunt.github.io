@@ -179,6 +179,23 @@ var markers = {
     {
       'type': 'Feature',
       'properties': {
+        'title': 'Hamilton, Bermuda',
+        'marker-symbol': 'suitcase',
+        'description': ' Summer 2013<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          -64.790337,
+          32.299507
+]
+      }
+    }
+  ]
+};
+    {
+      'type': 'Feature',
+      'properties': {
         'title': 'London, UK',
         'marker-symbol': 'suitcase',
         'description': 'Winter 2015<br>Waved hello to the Queen, saw Big Ben, and visited nearby Stonehenge.'
@@ -221,23 +238,6 @@ var markers = {
         ]
       }
     },
-    {
-      'type': 'Feature',
-      'properties': {
-        'title': 'Hamilton, Bermuda',
-        'marker-symbol': 'suitcase',
-        'description': ' Summer 2013<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
-      },
-      'geometry': {
-        'type': 'Point',
-        'coordinates': [
-          -64.790337,
-          32.299507
-]
-      }
-    }
-  ]
-};
 
 var placesLayer = L.mapbox.featureLayer().setGeoJSON(markers).addTo(map);
 
