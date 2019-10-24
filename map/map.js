@@ -1,54 +1,32 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoiYWx1bHNoIiwiYSI6ImY0NDBjYTQ1NjU4OGJmMDFiMWQ1Y2RmYjRlMGI1ZjIzIn0.pngboKEPsfuC4j54XDT3VA';
-
 var map = L.mapbox.map('map-init', 'mapbox.streets', { zoomControl: false })
     .setView([38.898, -77.043], 3);
-
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
-
 function fly(lat, long, title) {
-
     map.setView([lat, long], 7);
-
     placesLayer.eachLayer(function(marker){
-
     if(marker.feature.properties.title === title) {
-
         marker.openPopup();
-
     }
-
 })
-
 }
 
 function createEventListeners(index, lat, long, title) {
-
     var placeClass = 'place-' + index;
-    
     document.getElementById(placeClass).addEventListener('click', function() {
-
       fly(lat, long, title);
-
     }, false);
-
 }
 
 function loadPlaces(data){
-
     var places = data.features;
-
     for (var i = 0; i < places.length; i++) {
-
         var place = places[i];
-
         var lat = place.geometry.coordinates[1];
         var long = place.geometry.coordinates[0];
         var title = place.properties.title;
-
         createEventListeners(i, lat, long, title);
-
     }
-
 }
 
 var markers = {
@@ -181,18 +159,16 @@ var markers = {
       'properties': {
         'title': 'Hamilton, Bermuda',
         'marker-symbol': 'suitcase',
-        'description': ' Summer 2013<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
+        'description': 'Summer 2013<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
       },
       'geometry': {
         'type': 'Point',
         'coordinates': [
           -64.790337,
           32.299507
-]
+        ]
       }
-    }
-  ]
-};
+    },
     {
       'type': 'Feature',
       'properties': {
@@ -208,7 +184,7 @@ var markers = {
         ]
       }
     },
-    {
+        {
       'type': 'Feature',
       'properties': {
         'title': 'Paris, FR',
@@ -223,7 +199,7 @@ var markers = {
         ]
       }
     },
-        {
+    {
       'type': 'Feature',
       'properties': {
         'title': 'Amsterdam, NL',
@@ -235,21 +211,6 @@ var markers = {
         'coordinates': [
           4.899431,
           52.379189
-        ]
-      }
-    },
-    {
-      'type': 'Feature',
-      'properties': {
-        'title': 'Hamilton, Bermuda',
-        'marker-symbol': 'suitcase',
-        'description': ' Summer 2013<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!'
-      },
-      'geometry': {
-        'type': 'Point',
-        'coordinates': [
-          -64.790337,
-          32.299507
 ]
       }
     }
