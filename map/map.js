@@ -1,5 +1,5 @@
-L.mapbox.accessToken = 'pk.eyJ1IjoiYWx1bHNoIiwiYSI6ImY0NDBjYTQ1NjU4OGJmMDFiMWQ1Y2RmYjRlMGI1ZjIzIn0.pngboKEPsfuC4j54XDT3VA';
-var map = L.mapbox.map('map-init', 'mapbox.streets', { zoomControl: false })
+L.mapboxgl.accessToken = 'pk.eyJ1IjoiYWx1bHNoIiwiYSI6ImY0NDBjYTQ1NjU4OGJmMDFiMWQ1Y2RmYjRlMGI1ZjIzIn0.pngboKEPsfuC4j54XDT3VA';
+var map = L.mapboxgl.map('map-init', 'mapbox.streets', { zoomControl: false })
     .setView([38.898, -77.043], 3);
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
 function fly(lat, long, title) {
