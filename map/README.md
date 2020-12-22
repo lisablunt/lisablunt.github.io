@@ -11,7 +11,11 @@ What I worked on:
 
 * Set zoom level and added caption and date popups with [Leaflet](http://www.leafletjs.com/index.html)
 
+* Added JavaScript code to center the map on a clicked symbol
+
 * Updated city coordinates
+
+
 
 
 
