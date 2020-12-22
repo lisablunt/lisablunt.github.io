@@ -36,7 +36,7 @@
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
-	center: [-77.0366, 38.895],
+	center: [0, 0],
         zoom: 1
     });
 
@@ -46,7 +46,8 @@
             'data': {
                 'type': 'FeatureCollection',
                 'features': [
-                    {
+			
+           /*         {
                         'type': 'Feature',
                         'properties': {
                             'description':
@@ -57,7 +58,8 @@
                             'type': 'Point',
                             'coordinates': [-77.0366, 38.8950]
                         }
-                    }, 
+                    }, */
+			
                     {
                         'type': 'Feature',
                         'properties': {
