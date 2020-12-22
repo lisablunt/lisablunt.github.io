@@ -36,11 +36,10 @@
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
-	center: [-77.0369, 38.9072],
+	center: [0, 0],
         zoom: 2
     });
 
-mapboxgl.accessToken = 'pk.eyJ1IjoibGJsdW50IiwiYSI6ImNraXpvNHExdDJ3dWwyemxyNWNjM3g0d3MifQ.yH2wO_GlcKmsvKQhBC2lUg';
 // create the popup
 var popup = new mapboxgl.Popup({ offset: 25 }).setText(
 '<strong>Washington, DC</strong><p>1980s - Present<br>My birthplace and current city.</p>'
