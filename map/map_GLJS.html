@@ -40,14 +40,6 @@
         zoom: 2
     });
 	
-// Location marker //
-	
-/*	var marker = new mapboxgl.Marker()
-.setLngLat([-77.0369, 38.9072])
-.addTo(map); */
-	
-// End location marker //
-	
 map.on('load', function () {
 map.addSource('places', {
 'type': 'geojson',
@@ -59,7 +51,7 @@ map.addSource('places', {
 'properties': {
 'description':
 '<strong>Washington, DC</strong><p>1980s - Present <br> My birthplace and current city.</p>',
-'icon': 'marker'
+'icon': 'star'
 },
 'geometry': {
 'type': 'Point',
