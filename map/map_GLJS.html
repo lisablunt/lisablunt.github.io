@@ -36,12 +36,17 @@
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
-	center: [0, 0],
-        zoom: 1
+	center: [-77.0369, 38.9072],
+        zoom: 2
     });
+	
+// Location marker //
+	
 	var marker = new mapboxgl.Marker()
 .setLngLat([-77.0369, 38.9072])
 .addTo(map);
+	
+// End location marker //
 
     map.on('load', function () {
         map.addSource('places', {
