@@ -1,4 +1,4 @@
-[lisablunt.github.io/map](http://lisablunt.github.io/map)
+[lisablunt.github.io/map/map_GLJS](http://lisablunt.github.io/map/map_GLJS)
 ==============
 
 Places I've Lived & Travelled map. Built using [Mapbox GL JS](https://docs.mapbox.com/help/troubleshooting/transition-from-mapbox-js-to-mapbox-gl-js/). 
