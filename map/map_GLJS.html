@@ -39,25 +39,9 @@
 	center: [-77.0369, 38.9072],
         zoom: 2
     });
-	
-// Location marker //
-	
-	var marker = new mapboxgl.Marker()
-.setLngLat([-77.0369, 38.9072])
-.addTo(map);
-	
-// End location marker //
 
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoibGJsdW50IiwiYSI6ImNraXpvNHExdDJ3dWwyemxyNWNjM3g0d3MifQ.yH2wO_GlcKmsvKQhBC2lUg';
-var monument = [-77.0369, 38.9072];
-var map = new mapboxgl.Map({
-container: 'map',
-style: 'mapbox://styles/mapbox/light-v10',
-center: monument,
-zoom: 15
-});
- 
 // create the popup
 var popup = new mapboxgl.Popup({ offset: 25 }).setText(
 '<strong>Washington, DC</strong><p>1980s - Present<br>My birthplace and current city.</p>'
@@ -69,7 +53,7 @@ el.id = 'marker';
  
 // create the marker
 new mapboxgl.Marker(el)
-.setLngLat(monument)
+.setLngLat([-77.0369, 38.9072])
 .setPopup(popup) // sets a popup on this marker
 .addTo(map);
 </script>	
