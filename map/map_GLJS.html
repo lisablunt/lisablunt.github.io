@@ -48,13 +48,39 @@
 	
 // End location marker //
 
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoibGJsdW50IiwiYSI6ImNraXpvNHExdDJ3dWwyemxyNWNjM3g0d3MifQ.yH2wO_GlcKmsvKQhBC2lUg';
+var monument = [-77.0369, 38.9072];
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/light-v10',
+center: monument,
+zoom: 15
+});
+ 
+// create the popup
+var popup = new mapboxgl.Popup({ offset: 25 }).setText(
+'<strong>Washington, DC</strong><p>1980s - Present<br>My birthplace and current city.</p>'
+);
+ 
+// create DOM element for the marker
+var el = document.createElement('div');
+el.id = 'marker';
+ 
+// create the marker
+new mapboxgl.Marker(el)
+.setLngLat(monument)
+.setPopup(popup) // sets a popup on this marker
+.addTo(map);
+</script>	
+	
     map.on('load', function () {
         map.addSource('places', {
             'type': 'geojson',
             'data': {
                 'type': 'FeatureCollection',
                 'features': [
-                    {
+        <!--            {
                         'type': 'Feature',
                         'properties': {
                             'description':
@@ -65,7 +91,7 @@
                             'type': 'Point',
                             'coordinates': [-77.0369, 38.9072]
                         }
-                    }, 	
+                    }, 	--> 
                     {
                         'type': 'Feature',
                         'properties': {
