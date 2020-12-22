@@ -39,15 +39,8 @@
 	center: [-77.0369, 38.9072],
         zoom: 2
     });
+	</script>
 	
-// Location marker //
-	
-	var marker = new mapboxgl.Marker()
-.setLngLat([-77.0369, 38.9072])
-.addTo(map);
-	
-// End location marker //
-
     map.on('load', function () {
         map.addSource('places', {
             'type': 'geojson',
@@ -55,18 +48,18 @@
                 'type': 'FeatureCollection',
                 'features': [
                    {
-'type': 'Feature',
-'properties': {
-'description':
-'<strong>Washington, DC</strong><p>1980s - Present <br> My birthplace and current city.</p>',
-'icon': 'star'
-},
-'geometry': {
-'type': 'Point',
-'coordinates': [-77.038659, 38.931567]
-}
-},
-                    {
+			'type': 'Feature',
+			'properties': {
+			'description':
+				'<strong>Washington, DC</strong><p>1980s - Present <br> My birthplace and current city.</p>',
+			'icon': 'star'
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [-77.038659, 38.931567]
+			}
+		},
+		{
                         'type': 'Feature',
                         'properties': {
                             'description':
@@ -250,7 +243,6 @@
     });
 	// Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
-</script>
 
 </body>
 </html>
