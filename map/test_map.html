@@ -23,8 +23,9 @@
 	mapboxgl.accessToken = 'pk.eyJ1IjoibGJsdW50IiwiYSI6ImNraXpvNHExdDJ3dWwyemxyNWNjM3g0d3MifQ.yH2wO_GlcKmsvKQhBC2lUg';
     var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/outdoors-v11',
-        zoom: 5
+        style: 'mapbox://styles/mapbox/streets-v11',
+	center: [-77.043, 38.898],
+        zoom: 8
     });
 
     map.on('load', function () {
@@ -38,7 +39,7 @@
                         'properties': {
                             'description':
                                 '<strong>Washington, DC</strong><p>1980s - Present<br>My birthplace and current city.</p>',
-                            'icon': 'star-15'
+                            'icon': 'star-15.svg'
                         },
                         'geometry': {
                             'type': 'Point',
@@ -98,7 +99,7 @@
                         'properties': {
                             'description':
                                 '<strong>Capital Pride Parade</strong><p>The annual <a href="http://www.capitalpride.org/parade" target="_blank" title="Opens in a new window">Capital Pride Parade</a> makes its way through Dupont this Saturday. 4:30 p.m. Free.</p>',
-                            'icon': 'rocket'
+                            'icon': 'star-15'
                         },
                         'geometry': {
                             'type': 'Point',
