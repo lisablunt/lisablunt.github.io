@@ -50,7 +50,18 @@
       </div>
     </div>
         
-    <script src='mapbox-gl.js'></script>
+    <script>
+	// TO MAKE THE MAP APPEAR YOU MUST
+	// ADD YOUR ACCESS TOKEN FROM
+	// https://account.mapbox.com
+	mapboxgl.accessToken = 'pk.eyJ1IjoibGJsdW50IiwiYSI6ImNraXpvNHExdDJ3dWwyemxyNWNjM3g0d3MifQ.yH2wO_GlcKmsvKQhBC2lUg';
+var map = new mapboxgl.Map({
+container: 'map', // container id
+style: 'mapbox://styles/mapbox/streets-v11', // style URL
+center: [-74.5, 40], // starting position [lng, lat]
+zoom: 9 // starting zoom
+});
+</script>
     
     </body>
 </html>
