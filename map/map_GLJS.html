@@ -23,7 +23,35 @@
 	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
 </style>
 </head>
-<body>
+<body class='unlimiter'>
+	<div id='map-init' class='map'></div>
+            
+    <div class='pin-left pad1 col3'>
+
+        <div class='fill-white prose prose-small pad2 info round'>
+       
+        <h3>Places I've Lived & Travelled</h3>
+        <p>The U.S. cities I've lived in and international cities I've visited.</p>
+
+        <ol>
+            <li><a href="#" id='place-0'>Washington, DC</a></li>
+            <li><a href="#" id='place-1'>Providence, RI</a></li>
+            <li><a href="#" id='place-2'>New York, NY</a></li>
+            <li><a href="#" id='place-3'>New Haven, CT</a></li>
+            <li><a href="#" id='place-4'>Sacramento, CA</a></li>
+	    <li><a href="#" id='place-5'>Toronto, ON, CAN</a></li>
+	    <li><a href="#" id='place-6'>Montréal, QC, CAN</a></li>
+	    <li><a href="#" id='place-7'>Québec, QC, CAN</a></li>
+	    <li><a href="#" id='place-8'>Hamilton, Bermuda</a>
+	    <li><a href="#" id='place-9'>London, UK</a></li>
+            <li><a href="#" id='place-10'>Paris, FR</a></li>
+            <li><a href="#" id='place-11'>Amsterdam, NL</a></li>
+	    
+	</ol>
+      </div>
+    </div>
+</body>
+	
 <style>
     .mapboxgl-popup {
         max-width: 400px;
@@ -253,5 +281,5 @@ map.addSource('places', {
 map.addControl(new mapboxgl.NavigationControl());
 </script>
 
-</body>
+
 </html>
