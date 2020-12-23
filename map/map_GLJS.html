@@ -19,7 +19,8 @@
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script>
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css" rel="stylesheet" />
 </head>
-
+	
+<body>
 <body class='unlimiter'>
 	<div id='map-init' class='map'></div>
             
@@ -47,6 +48,8 @@
 	</ol>
       </div>
     </div>
+	<script src="map.js"></script>
+</body> 
 	
 <style>
 	body { margin: 0; padding: 0; }
@@ -282,5 +285,5 @@ map.addSource('places', {
 map.addControl(new mapboxgl.NavigationControl());
 </script>
 
-	</body>
+</body>
 </html>
