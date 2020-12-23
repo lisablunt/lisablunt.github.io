@@ -22,6 +22,241 @@
 	<link href="styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body class='unlimiter'>
+	    
+<style>
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+	
+<style>
+    .mapboxgl-popup {
+        max-width: 400px;
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+</style>
+<div id="map"></div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoibGJsdW50IiwiYSI6ImNraXpvNHExdDJ3dWwyemxyNWNjM3g0d3MifQ.yH2wO_GlcKmsvKQhBC2lUg';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+	center: [-77.0369, 38.9072],
+        zoom: 2
+    });
+	
+map.on('load', function () {
+map.addSource('places', {
+'type': 'geojson',
+'data': {
+'type': 'FeatureCollection',
+'features': [
+{
+'type': 'Feature',
+'properties': {
+'description':
+'<strong>Washington, DC</strong><p>1980s - Present <br> My birthplace and current city.</p>',
+'icon': 'marker'
+},
+'geometry': {
+'type': 'Point',
+'coordinates': [-77.0369, 38.9072]
+}
+},
+
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<strong>Providence, RI</strong><p>Spring 2009<br>Graduated from Brown University.</p>',
+                            'icon': 'college'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-71.4128, 41.8240]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<strong>New York, NY</strong><p>Summer 2007<br>Interned with the books division of Sports Illustrated.</p>',
+                            'icon': 'library'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-74.0060, 40.7128]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<strong>New Haven, CT</strong><p>Summer 2008<br>Interned with the Publicity and Marketing departments of Yale University Press.</p>',
+                            'icon': 'library'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-72.9279, 41.3083]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<strong>Sacramento, CA</strong><p>Summer 2015<br>Attended the <a href="https://chimehack2.devpost.com/" target="_blank" rel="noopener">CHIMEHACK 2</a> hackathon at Twitter HQ in SF.</p>',
+                            'icon': 'pitch'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-121.4944, 38.5816]
+                        }
+                    },
+			
+/* Begin Canadian cities */
+			
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<strong>Toronto, ON, CA</strong><p>1988<br>My very first trip outside the U.S.</p>',
+                            'icon': 'suitcase'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-79.3832, 43.6532]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<strong>Montréal, QC, CAN</strong><p>1996<br>Visited as part of a penpal exchange with a local elementary school.</p>',
+                            'icon': 'suitcase'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-73.5673, 45.5017]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<strong>Québec, QC, CAN</strong><p>1996<br>Visited as part of a penpal exchange with a Montréal elementary school.</p>',
+                            'icon': 'suitcase'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-71.2080, 46.8139]
+                        }
+                    },
+			
+/* End Canadian cities */
+	
+		   {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<strong>Hamilton, Bermuda</strong><p>Summer 2013<br>Pastel houses, pink sand beaches, gorgeous sunsets... take me back!</p>',
+                            'icon': 'suitcase'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-64.790337, 32.299507]
+                        }
+                    },
+		    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<strong>London, UK</strong><p>Winter 2015<br>Waved hello to the Queen, saw Big Ben, and visited nearby Stonehenge.</p>',
+                            'icon': 'suitcase'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-0.1278, 51.5074]
+                        }
+                    },
+		    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<strong>Paris, FR</strong><p>Winter 2015<br>Ice skated at the Eiffel Tower, visited the Louvre, and ate too many macarons.</p>',
+                            'icon': 'suitcase'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [2.3522, 48.8566]
+                        }
+                    },
+			
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<strong>Amsterdam, NL</strong><p>Winter 2015<br>The people here were very nice and accommodating to a sick traveller.</p>',
+                            'icon': 'suitcase'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [4.899431, 52.379189]
+                        }
+                    }
+                ]
+            }
+        });
+        // Add a layer showing the places.
+        map.addLayer({
+            'id': 'places',
+            'type': 'symbol',
+            'source': 'places',
+            'layout': {
+                'icon-image': '{icon}-15',
+                'icon-allow-overlap': true
+            }
+        });
+
+        // When a click event occurs on a feature in the places layer, open a popup at the
+        // location of the feature, with description HTML from its properties.
+        map.on('click', 'places', function (e) {
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            var description = e.features[0].properties.description;
+
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            new mapboxgl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(description)
+                .addTo(map);
+        });
+	
+	
+	// Center the map on the coordinates of any clicked symbol from the 'symbols' layer.
+	map.on('click', 'symbols', function (e) {
+	map.flyTo({
+		center: e.features[0].geometry.coordinates
+	});
+	});
+
+        // Change the cursor to a pointer when the mouse is over the places layer.
+        map.on('mouseenter', 'places', function () {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+
+        // Change it back to a pointer when it leaves.
+        map.on('mouseleave', 'places', function () {
+            map.getCanvas().style.cursor = '';
+        });
+    });
+	// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
+</script>
+	    
 
     <div id='map-init' class='map'></div>
             
