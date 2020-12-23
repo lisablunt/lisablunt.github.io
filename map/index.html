@@ -22,7 +22,35 @@
 	<link href="styles.css" rel="stylesheet" type="text/css" />
     </head>
 	
+<!-- Sidebar navigation begins -->
+	
+    <body class='unlimiter'>
+	    
+<style>
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+	
+<style>
+    .mapboxgl-popup {
+        max-width: 400px;
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+</style>
+	    
+<div id="map"></div>
+	    
 <script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoibGJsdW50IiwiYSI6ImNraXpvNHExdDJ3dWwyemxyNWNjM3g0d3MifQ.yH2wO_GlcKmsvKQhBC2lUg';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+	center: [-77.0369, 38.9072],
+        zoom: 2
+    });
+	
+	
+	
 L.mapboxgl.accessToken = 'pk.eyJ1IjoiYWx1bHNoIiwiYSI6ImY0NDBjYTQ1NjU4OGJmMDFiMWQ1Y2RmYjRlMGI1ZjIzIn0.pngboKEPsfuC4j54XDT3VA';
 var map = L.mapboxgl.map('map-init', 'mapbox.streets', { zoomControl: false })
     .setView([38.898, -77.043], 3);
@@ -53,32 +81,7 @@ function loadPlaces(data){
         createEventListeners(i, lat, long, title);
     }
 }
-</script>
 	
-<!-- Sidebar navigation begins -->
-	
-    <body class='unlimiter'>
-	    
-<style>
-	body { margin: 0; padding: 0; }
-	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
-</style>
-	
-<style>
-    .mapboxgl-popup {
-        max-width: 400px;
-        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    }
-</style>
-<div id="map"></div>
-<script>
-	mapboxgl.accessToken = 'pk.eyJ1IjoibGJsdW50IiwiYSI6ImNraXpvNHExdDJ3dWwyemxyNWNjM3g0d3MifQ.yH2wO_GlcKmsvKQhBC2lUg';
-    var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-	center: [-77.0369, 38.9072],
-        zoom: 2
-    });
 	
 map.on('load', function () {
 map.addSource('places', {
