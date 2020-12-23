@@ -21,6 +21,18 @@
 	<link href="https://www.mapbox.com/base/latest/base.css" rel="stylesheet" />
 	<link href="styles.css" rel="stylesheet" type="text/css" />
     </head>
+	
+<script>
+	function createEventListeners(index, lat, long, title) {
+    var placeClass = 'place-' + index;
+    document.getElementById(placeClass).addEventListener('click', function() {
+      fly(lat, long, title);
+    }, false);
+}
+</script>
+	
+<!-- Sidebar navigation begins -->
+	
     <body class='unlimiter'>
 	    
 <style>
@@ -257,7 +269,8 @@ map.addSource('places', {
 map.addControl(new mapboxgl.NavigationControl());
 </script>
 	    
-
+<!-- Sidebar navigation resumes from line 25 -->
+	    
     <div id='map-init' class='map'></div>
             
     <div class='pin-left pad1 col3'>
@@ -279,13 +292,10 @@ map.addControl(new mapboxgl.NavigationControl());
 	    <li><a href="#" id='place-8'>Hamilton, Bermuda</a>
 	    <li><a href="#" id='place-9'>London, UK</a></li>
             <li><a href="#" id='place-10'>Paris, FR</a></li>
-            <li><a href="#" id='place-11'>Amsterdam, NL</a></li>
-	    
+            <li><a href="#" id='place-11'>Amsterdam, NL</a></li>   
 	</ol>
       </div>
-    </div>
-        
-    <script src='map.js'></script>
-    
-    </body>
+    </div> 
+     <script src='map.js'></script> 
+   </body>
 </html>
