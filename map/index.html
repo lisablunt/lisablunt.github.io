@@ -22,9 +22,7 @@
 	<link href="styles.css" rel="stylesheet" type="text/css" />
     </head>
 	
-<!-- Sidebar navigation begins -->
-	
-    <body class='unlimiter'>
+    <body class='unlimiter'> 
 	    
 <style>
 	body { margin: 0; padding: 0; }
@@ -48,40 +46,6 @@
 	center: [-77.0369, 38.9072],
         zoom: 2
     });
-	
-	
-	
-L.mapboxgl.accessToken = 'pk.eyJ1IjoiYWx1bHNoIiwiYSI6ImY0NDBjYTQ1NjU4OGJmMDFiMWQ1Y2RmYjRlMGI1ZjIzIn0.pngboKEPsfuC4j54XDT3VA';
-var map = L.mapboxgl.map('map-init', 'mapbox.streets', { zoomControl: false })
-    .setView([38.898, -77.043], 3);
-new L.Control.Zoom({ position: 'topright' }).addTo(map);
-function fly(lat, long, title) {
-    map.setView([lat, long], 7);
-    placesLayer.eachLayer(function(marker){
-    if(marker.feature.properties.title === title) {
-        marker.openPopup();
-    }
-})
-}
-
-function createEventListeners(index, lat, long, title) {
-    var placeClass = 'place-' + index;
-    document.getElementById(placeClass).addEventListener('click', function() {
-      fly(lat, long, title);
-    }, false);
-}
-
-function loadPlaces(data){
-    var places = data.features;
-    for (var i = 0; i < places.length; i++) {
-        var place = places[i];
-        var lat = place.geometry.coordinates[1];
-        var long = place.geometry.coordinates[0];
-        var title = place.properties.title;
-        createEventListeners(i, lat, long, title);
-    }
-}
-	
 	
 map.on('load', function () {
 map.addSource('places', {
