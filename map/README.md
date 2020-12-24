@@ -7,13 +7,13 @@ I built this interactive map because I couldn't find an infographic template I l
 
 What I worked on:
 
+* Updated city coordinates
+
 * Styled marker symbols with [Maki](https://labs.mapbox.com/maki-icons/)
 
 * Set zoom level and added caption and date popups with [Leaflet](http://www.leafletjs.com/index.html)
 
 * Added JavaScript code to center the map on a clicked symbol
-
-* Updated city coordinates
 
 
 
