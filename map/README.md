@@ -1,7 +1,7 @@
 [lisablunt.github.io/map/map_GLJS](http://lisablunt.github.io/map/map_GLJS)
 ==============
 
-Places I've Lived & Travelled map. Built using [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/). 
+Places I've Lived & Travelled map. Built using [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides/). 
 
 I built this interactive map because I couldn't find an infographic template I liked.
 
